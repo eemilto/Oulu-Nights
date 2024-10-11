@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 26
-  productGUID: e7f8bfb4605bebe43a2406559f7204fa
+  productGUID: 8dc591626c3d7ce45a67bc12b502fb4d
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: DefaultCompany
-  productName: Oulu Nights
+  productName: Oulu Nights concept demo
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -630,14 +630,14 @@ PlayerSettings:
   apiCompatibilityLevelPerPlatform: {}
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Oulu Nights
+  metroPackageName: Oulu Nights concept demo
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Oulu Nights
+  metroApplicationDescription: Oulu Nights concept demo
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -706,11 +706,11 @@ PlayerSettings:
   apiCompatibilityLevel: 6
   activeInputHandler: 0
   windowsGamepadBackendHint: 0
-  cloudProjectId: 47d4341b-761d-4aa8-9798-c2eb51eb9d49
+  cloudProjectId: 8974dbc9-1d1c-40f5-86fd-61b5230c9528
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Oulu Nights
-  organizationId: oulunights
+  projectName: Oulu Nights concept demo
+  organizationId: unity_06b9469cc31c02f04896
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}
