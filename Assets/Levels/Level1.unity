@@ -5603,7 +5603,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   gameOverScreen: {fileID: 953888926}
-  gameOverSound: {fileID: 8300000, guid: 41202128e240e7d489e393bcb6f4d0d5, type: 3}
+  gameOverSound: {fileID: 0}
 --- !u!1 &1211576692
 GameObject:
   m_ObjectHideFlags: 0
