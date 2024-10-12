@@ -281,7 +281,7 @@ MonoBehaviour:
   components:
   - {fileID: 4489580528120790794}
   - {fileID: 6530384780264300336}
-  deathSound: {fileID: 8300000, guid: 798bef2a48ad13740b4831daee499227, type: 3}
+  deathSound: {fileID: 8300000, guid: 27757c25f132d504daf2d4fe044683b0, type: 3}
   hurtSound: {fileID: 0}
 --- !u!114 &2370634150607685010
 MonoBehaviour:
@@ -295,3 +295,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 412b66186908d124a9dc807c665ba724, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  checkpoint: {fileID: 0}
