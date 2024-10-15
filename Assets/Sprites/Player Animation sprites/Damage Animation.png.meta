@@ -34,7 +34,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -45,7 +45,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -69,10 +69,10 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 16384
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,13 +110,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: sprite_damage_done-Sheet_0
+      name: Damage1
       rect:
         serializedVersion: 2
-        x: 576
+        x: 578
         y: 0
-        width: 429
-        height: 558
+        width: 425
+        height: 553
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -124,20 +124,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7504d5f36df13c2489e8ef3035d1241e
-      internalID: -1415571490
+      spriteID: 795d96ce7b4250a41a15e8204e12927b
+      internalID: 1205430669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_damage_done-Sheet_1
+      name: Damage2
       rect:
         serializedVersion: 2
-        x: 2255
+        x: 2257
         y: 0
         width: 458
-        height: 575
+        height: 573
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -145,20 +145,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8e4bd2dca53810741907a617eefe8f34
-      internalID: -154232623
+      spriteID: 27ca1950ccb3c644c956399c8c1fb8ff
+      internalID: -277032094
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_damage_done-Sheet_2
+      name: Damage3
       rect:
         serializedVersion: 2
-        x: 3914
+        x: 3916
         y: 0
-        width: 511
-        height: 604
+        width: 507
+        height: 602
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -166,20 +166,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: c956811b4ea25394892e3f00a6235737
-      internalID: -546148262
+      spriteID: 2540f5ea889bc0a46aadd9ba894f8c51
+      internalID: 998709364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_damage_done-Sheet_3
+      name: Damage4
       rect:
         serializedVersion: 2
-        x: 5593
+        x: 5595
         y: 0
-        width: 543
-        height: 633
+        width: 534
+        height: 635
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -187,20 +187,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7d0d34c559bfb924d817bb35123935c1
-      internalID: -982490930
+      spriteID: 3058661dac985454bbad2d95f0deb08f
+      internalID: 813763077
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: sprite_damage_done-Sheet_4
+      name: Damage5
       rect:
         serializedVersion: 2
-        x: 7326
+        x: 7328
         y: 0
-        width: 538
-        height: 575
+        width: 532
+        height: 573
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -208,8 +208,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 36ff96b2bb147fc4ea3becd94ab438e2
-      internalID: -271177826
+      spriteID: c41282731bf4d1b46a530ddc89738796
+      internalID: 305782267
       vertices: []
       indices: 
       edges: []
@@ -225,14 +225,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      sprite_damage_done-Sheet_0: -1415571490
-      sprite_damage_done-Sheet_1: -154232623
-      sprite_damage_done-Sheet_2: -546148262
-      sprite_damage_done-Sheet_3: -982490930
-      sprite_damage_done-Sheet_4: -271177826
-      sprite_damage_done-Sheet_5: 539284066
-      sprite_damage_done-Sheet_6: 1848769566
-      sprite_damage_done-Sheet_7: 487425667
+      Damage Animation_5: -1615001768
+      Damage Animation_6: 1763130797
+      Damage Animation_7: 1230191409
+      Damage Animation_8: -1790136155
+      Damage1: 1205430669
+      Damage2: -277032094
+      Damage3: 998709364
+      Damage4: 813763077
+      Damage5: 305782267
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
