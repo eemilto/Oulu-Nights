@@ -2,8 +2,8 @@ using UnityEngine;
 
 public class PlayerRespawn : MonoBehaviour
 {
-    [SerializeField] private AudioClip checkpoint; //Sound that we'll play when picking up a new checkpoint
-    private Transform currentCheckpoint; //We'll store our last checkpoint here
+    [SerializeField] private AudioClip checkpoint;
+    private Transform currentCheckpoint;
     private Health playerHealth;
     private UIManager uiManager;
 
@@ -13,16 +13,12 @@ public class PlayerRespawn : MonoBehaviour
         uiManager = FindObjectOfType<UIManager>();
     }
 
-    public void CheckRespawn()
+    public void RespawnCheck()
     {
-        //Check if checkpoint available
-        if (currentCheckpoint == null)
+        if (currentCheckpoint == null) 
         {
-            //Show game over screen
             uiManager.GameOver();
-
-
-            return; //Don't execute the rest of this function
+            return;
         }
 
         playerHealth.Respawn(); //Restore player health and reset animation
