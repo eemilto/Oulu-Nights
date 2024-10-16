@@ -7888,11 +7888,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6530384780264300336, guid: 12abc6ca2282623419a6c9ca7777111e, type: 3}
       propertyPath: speed
-      value: 10
+      value: 20
       objectReference: {fileID: 0}
     - target: {fileID: 6530384780264300336, guid: 12abc6ca2282623419a6c9ca7777111e, type: 3}
       propertyPath: jumpPower
-      value: 20
+      value: 30
       objectReference: {fileID: 0}
     - target: {fileID: 6530384780264300336, guid: 12abc6ca2282623419a6c9ca7777111e, type: 3}
       propertyPath: jumpSound
