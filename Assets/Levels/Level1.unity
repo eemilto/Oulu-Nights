@@ -7834,6 +7834,14 @@ PrefabInstance:
       propertyPath: hurtSound
       value: 
       objectReference: {fileID: 8300000, guid: 655928f17c5afba46bf10b3fd55eeb05, type: 3}
+    - target: {fileID: 1171502105345061336, guid: 12abc6ca2282623419a6c9ca7777111e, type: 3}
+      propertyPath: iFramesDuration
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1171502105345061336, guid: 12abc6ca2282623419a6c9ca7777111e, type: 3}
+      propertyPath: numberOfFlashes
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 1570837626464409490, guid: 12abc6ca2282623419a6c9ca7777111e, type: 3}
       propertyPath: m_SortingLayer
       value: 3
