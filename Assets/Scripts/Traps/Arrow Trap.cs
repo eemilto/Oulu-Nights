@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 
 public class ArrowTrap : MonoBehaviour
 {
@@ -34,4 +34,4 @@ public class ArrowTrap : MonoBehaviour
         if (cooldownTimer >= attackCooldown)
             Attack();
     }
-}
+}*/

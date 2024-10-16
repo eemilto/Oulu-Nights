@@ -1,4 +1,4 @@
-using UnityEngine;
+/*using UnityEngine;
 
 public class EnemyProjectile : EnemyDamage //will damage the player every time it touches
 {
@@ -49,4 +49,4 @@ public class EnemyProjectile : EnemyDamage //will damage the player every time i
     {
         gameObject.SetActive(false);
     }
-}
+}*/
