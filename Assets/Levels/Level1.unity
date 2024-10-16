@@ -7842,6 +7842,14 @@ PrefabInstance:
       propertyPath: numberOfFlashes
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 1171502105345061336, guid: 12abc6ca2282623419a6c9ca7777111e, type: 3}
+      propertyPath: components.Array.data[0]
+      value: 
+      objectReference: {fileID: 1211576694}
+    - target: {fileID: 1171502105345061336, guid: 12abc6ca2282623419a6c9ca7777111e, type: 3}
+      propertyPath: components.Array.data[1]
+      value: 
+      objectReference: {fileID: 1845237448}
     - target: {fileID: 1570837626464409490, guid: 12abc6ca2282623419a6c9ca7777111e, type: 3}
       propertyPath: m_SortingLayer
       value: 3
