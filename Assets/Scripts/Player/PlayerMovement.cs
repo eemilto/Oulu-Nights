@@ -26,7 +26,7 @@ public class PlayerMovement : MonoBehaviour
 
         private void Update()
         {
-                horizontalInput = Input.GetAxis("Horizontal");
+                horizontalInput = SimpleInput.GetAxis("Horizontal");
                 
                 //Flip player when moving left & right
                 if (horizontalInput > 0.01f)
@@ -64,7 +64,7 @@ public class PlayerMovement : MonoBehaviour
         }
 
 
-        private void Jump()
+        public void Jump()
         {
                 if (isGrounded())
                 {

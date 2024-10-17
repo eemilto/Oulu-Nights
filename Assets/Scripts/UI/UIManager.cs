@@ -10,6 +10,12 @@ public class UIManager : MonoBehaviour
     [Header("Pause")]
     [SerializeField] private GameObject pauseScreen;
 
+    [Header ("Options")]
+    [SerializeField] private GameObject options;
+
+    [Header ("Main Menu")]
+    [SerializeField] private GameObject mainMenu;
+
     private void Awake()
     {
         gameOverScreen.SetActive(false);
@@ -42,6 +48,18 @@ public class UIManager : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadScene(0);
+    }
+
+    //Start Game
+    public void StartGame()
+    {
+        SceneManager.LoadScene(1);
+    }
+
+    //Options
+    public void Options()
+    {
+        SceneManager.LoadScene(3);
     }
 
     //Quit game/exit play mode if in Editor
