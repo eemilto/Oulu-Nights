@@ -3,20 +3,25 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Ground
+  - Enemy
+  - Checkpoint
+  - Salmon
+  - Toripolliisi
   layers:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Statue
   - Water
   - UI
   - 
   - 
-  - 
-  - 
-  - 
-  - 
+  - Ground
+  - Wall
+  - Player
+  - Enemy
   - 
   - 
   - 
@@ -40,4 +45,19 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Statue
+    uniqueID: 1206957307
+    locked: 0
+  - name: Background
+    uniqueID: 2832854027
+    locked: 0
+  - name: Foreground
+    uniqueID: 3018297927
+    locked: 0
+  - name: Player
+    uniqueID: 2399176227
+    locked: 0
+  - name: Ground
+    uniqueID: 993875901
     locked: 0
