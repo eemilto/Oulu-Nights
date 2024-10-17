@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "OuluNights.sln"
+    "dotnet.defaultSolution": "Oulu-Nights.sln"
 }
