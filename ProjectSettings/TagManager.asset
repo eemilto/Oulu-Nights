@@ -13,7 +13,7 @@ TagManager:
   - Default
   - TransparentFX
   - Ignore Raycast
-  - 
+  - Statue
   - Water
   - UI
   - 
@@ -45,6 +45,9 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Statue
+    uniqueID: 1206957307
     locked: 0
   - name: Background
     uniqueID: 2832854027
