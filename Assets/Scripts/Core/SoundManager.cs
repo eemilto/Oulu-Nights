@@ -1,10 +1,14 @@
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SoundManager : MonoBehaviour
 {
     public static SoundManager instance { get; private set; }
     private AudioSource soundSource;
     private AudioSource musicSource;
+    [SerializeField] Slider volumeSlider;
 
     private void Awake()
     {
@@ -28,6 +32,35 @@ public class SoundManager : MonoBehaviour
     public void PlaySound(AudioClip _sound)
     {
         soundSource.PlayOneShot(_sound);
+    }
+
+    void Start()
+    {
+        if(PlayerPrefs.HasKey("soundVolume"))
+        {
+            PlayerPrefs.SetFloat("soundVolume", 1);
+            Load();
+        }
+        else
+        {
+            Load();
+        }    
+    }
+
+    public void ChangeVolume()
+    {
+        AudioListener.volume = volumeSlider.value;
+        Save();
+    }
+
+    private void Load()
+    {
+        volumeSlider.value = PlayerPrefs.GetFloat("soundVolume");
+    }
+
+    private void Save()
+    {
+        PlayerPrefs.SetFloat("soundVolume", volumeSlider.value);
     }
 
     public void ChangeSoundVolume(float _change)
