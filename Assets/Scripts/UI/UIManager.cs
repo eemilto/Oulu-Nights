@@ -10,14 +10,10 @@ public class UIManager : MonoBehaviour
     [Header("Pause")]
     [SerializeField] private GameObject pauseScreen;
 
-    [Header("Options")]
-    [SerializeField] private GameObject optionsScreen;
-
     private void Awake()
     {
         gameOverScreen.SetActive(false);
         pauseScreen.SetActive(false);
-        optionsScreen.SetActive(false);
     }
     private void Update()
     {
@@ -35,6 +31,7 @@ public class UIManager : MonoBehaviour
         gameOverScreen.SetActive(true);
         SoundManager.instance.PlaySound(gameOverSound);
     }
+
     //Restart level
     public void Restart()
     {
@@ -45,17 +42,6 @@ public class UIManager : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadScene(0);
-    }
-     //Start Game
-    public void StartGame()
-    {
-        SceneManager.LoadScene(1);
-    }
-
-     //Settings
-    public void Settings()
-    {
-        SceneManager.LoadScene(3);
     }
 
     //Quit game/exit play mode if in Editor
