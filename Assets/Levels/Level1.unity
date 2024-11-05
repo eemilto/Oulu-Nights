@@ -506,7 +506,7 @@ Transform:
   m_GameObject: {fileID: 22810853}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 7.966, y: 0.036, z: 0}
+  m_LocalPosition: {x: 5.356, y: 0.036, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -3995,7 +3995,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -17.356628, y: -8.347721, z: -15}
+  m_LocalPosition: {x: -20.790009, y: -8.347721, z: -15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -11560,7 +11560,7 @@ Transform:
   m_GameObject: {fileID: 1616908986}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -395.80002, y: -14.3, z: 0}
+  m_LocalPosition: {x: -395.80002, y: -12.19, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11942,7 +11942,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: 0, y: -10.633628}
+  m_Offset: {x: 0, y: -10.653765}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -11953,7 +11953,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 70, y: 8.74251}
+  m_Size: {x: 70, y: 8.702236}
   m_EdgeRadius: 0
 --- !u!1 &1673712090
 GameObject:
@@ -14604,7 +14604,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6530384780264300336, guid: 12abc6ca2282623419a6c9ca7777111e, type: 3}
       propertyPath: jumpPower
-      value: 30
+      value: 27
       objectReference: {fileID: 0}
     - target: {fileID: 6530384780264300336, guid: 12abc6ca2282623419a6c9ca7777111e, type: 3}
       propertyPath: jumpSound
@@ -14637,6 +14637,10 @@ PrefabInstance:
     - target: {fileID: 6573821363750477537, guid: 12abc6ca2282623419a6c9ca7777111e, type: 3}
       propertyPath: m_UseAutoMass
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6573821363750477537, guid: 12abc6ca2282623419a6c9ca7777111e, type: 3}
+      propertyPath: m_GravityScale
+      value: 1000
       objectReference: {fileID: 0}
     - target: {fileID: 6892443322804306276, guid: 12abc6ca2282623419a6c9ca7777111e, type: 3}
       propertyPath: m_Name
