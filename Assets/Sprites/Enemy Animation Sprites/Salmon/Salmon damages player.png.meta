@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 46e5f8e9fee487847bc80850c0eef39f
+guid: e3b2320b1560aa44ea9dab2e35207bbd
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -45,7 +45,7 @@ TextureImporter:
   compressionQuality: 50
   spriteMode: 2
   spriteExtrude: 1
-  spriteMeshType: 0
+  spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
@@ -93,239 +93,16 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
-  - serializedVersion: 3
-    buildTarget: Android
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 1
-    compressionQuality: 50
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    overridden: 0
-    ignorePlatformSupport: 0
-    androidETC2FallbackOverride: 0
-    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: fishdeath_0
+      name: Salmon damages player_0
       rect:
         serializedVersion: 2
-        x: 1698
-        y: 0
-        width: 1394
-        height: 643
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 52e071b4ea6a35848a042fdc14fc603e
-      internalID: 750061678
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fishdeath_1
-      rect:
-        serializedVersion: 2
-        x: 141
-        y: 0
-        width: 1322
-        height: 643
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d905e45a14b3f2240b13761a3660a23b
-      internalID: 2054074923
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fishdeath_2
-      rect:
-        serializedVersion: 2
-        x: 3249
-        y: 0
-        width: 1452
-        height: 646
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5e7eda706ec17764a927f3ad2c82c899
-      internalID: 809084239
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fishdeath_3
-      rect:
-        serializedVersion: 2
-        x: 4848
-        y: 0
-        width: 1464
-        height: 642
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ee57e108eb1574443b9f6872e0219b86
-      internalID: 519456625
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fishdeath_4
-      rect:
-        serializedVersion: 2
-        x: 6449
-        y: 0
-        width: 1472
-        height: 691
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5b17a1d2ac562304d8fd54af744c8d7f
-      internalID: -1769681203
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fishdeath_5
-      rect:
-        serializedVersion: 2
-        x: 8049
-        y: 0
-        width: 1462
-        height: 763
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af32d3bb71db029449f6110713abe739
-      internalID: 2055564352
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fishdeath_6
-      rect:
-        serializedVersion: 2
-        x: 9648
-        y: 0
-        width: 1443
-        height: 732
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e7244a9adda619e449220fb2343498cf
-      internalID: 469932204
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fishdeath_7
-      rect:
-        serializedVersion: 2
-        x: 11249
-        y: 0
-        width: 1472
-        height: 681
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: af02e914d5e7daa4babc9d7206764c82
-      internalID: -1187738872
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fishdeath_8
-      rect:
-        serializedVersion: 2
-        x: 12848
-        y: 0
-        width: 1473
-        height: 633
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 63f37bbd4727a6f458b8073331267a50
-      internalID: -475090808
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fishdeath_9
-      rect:
-        serializedVersion: 2
-        x: 14448
-        y: 0
-        width: 1473
-        height: 574
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d73d7e2e0d5d16248906fe1ac8020bfe
-      internalID: 609339269
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: fishdeath_10
-      rect:
-        serializedVersion: 2
-        x: 16048
-        y: 0
-        width: 1475
+        x: 319
+        y: 120
+        width: 1242
         height: 521
       alignment: 0
       pivot: {x: 0, y: 0}
@@ -334,20 +111,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cc3c30ef2e6229744910d5e4b446b33b
-      internalID: -1004593215
+      spriteID: c2383f712bdd7af4f95647237eb2ad59
+      internalID: 328717042
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fishdeath_11
+      name: Salmon damages player_1
       rect:
         serializedVersion: 2
-        x: 17632
-        y: 0
-        width: 1489
-        height: 526
+        x: 2059
+        y: 159
+        width: 1172
+        height: 512
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -355,20 +132,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cfef73672fdd1ef49993868c05bce957
-      internalID: -653428893
+      spriteID: 5b22338320b4fd5408b9ede1bc1152d6
+      internalID: 1905221984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: fishdeath_12
+      name: Salmon damages player_2
       rect:
         serializedVersion: 2
-        x: 19305
-        y: 0
-        width: 1414
-        height: 506
+        x: 3819
+        y: 159
+        width: 1131
+        height: 511
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -376,8 +153,176 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 70b5568db687c9f4b8ae84d2ee2466f2
-      internalID: 373857105
+      spriteID: 6ff5fe9213fc2d1418df1078b352168c
+      internalID: 1205638689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmon damages player_3
+      rect:
+        serializedVersion: 2
+        x: 5529
+        y: 159
+        width: 1132
+        height: 511
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 679d8bb3d1c411a41a633a540b1dfb89
+      internalID: -371299362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmon damages player_4
+      rect:
+        serializedVersion: 2
+        x: 7169
+        y: 119
+        width: 1192
+        height: 522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dbe247e08832e84680fe0f54df25f07
+      internalID: 1151765662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmon damages player_5
+      rect:
+        serializedVersion: 2
+        x: 8758
+        y: 120
+        width: 1233
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd6b0b9929aa3bb4f96ad94221373ec0
+      internalID: -2132808392
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmon damages player_6
+      rect:
+        serializedVersion: 2
+        x: 10519
+        y: 119
+        width: 1232
+        height: 522
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 149b0baf44544334f8456e848e242dd4
+      internalID: -674294438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmon damages player_7
+      rect:
+        serializedVersion: 2
+        x: 12309
+        y: 159
+        width: 1132
+        height: 512
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 13d9b0dabd6dec74db98601cdec81ce0
+      internalID: -1749858982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmon damages player_8
+      rect:
+        serializedVersion: 2
+        x: 13959
+        y: 158
+        width: 1172
+        height: 513
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a1a0861609b0e44bd0acebbc2c70b5
+      internalID: 1127763796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmon damages player_9
+      rect:
+        serializedVersion: 2
+        x: 15618
+        y: 119
+        width: 1244
+        height: 523
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f36f2cdc3a4d2b4b90eb29af85c0a39
+      internalID: 1395890719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Salmon damages player_10
+      rect:
+        serializedVersion: 2
+        x: 17320
+        y: 120
+        width: 1241
+        height: 521
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85fc54336297f2e4c9b48772971eac27
+      internalID: -675464469
       vertices: []
       indices: 
       edges: []
@@ -393,19 +338,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      fishdeath_0: 750061678
-      fishdeath_1: 2054074923
-      fishdeath_10: -1004593215
-      fishdeath_11: -653428893
-      fishdeath_12: 373857105
-      fishdeath_2: 809084239
-      fishdeath_3: 519456625
-      fishdeath_4: -1769681203
-      fishdeath_5: 2055564352
-      fishdeath_6: 469932204
-      fishdeath_7: -1187738872
-      fishdeath_8: -475090808
-      fishdeath_9: 609339269
+      Salmon damages player_0: 328717042
+      Salmon damages player_1: 1905221984
+      Salmon damages player_10: -675464469
+      Salmon damages player_11: -998517915
+      Salmon damages player_2: 1205638689
+      Salmon damages player_3: -371299362
+      Salmon damages player_4: 1151765662
+      Salmon damages player_5: -2132808392
+      Salmon damages player_6: -674294438
+      Salmon damages player_7: -1749858982
+      Salmon damages player_8: 1127763796
+      Salmon damages player_9: 1395890719
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
