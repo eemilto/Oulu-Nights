@@ -1,21 +1,21 @@
 using UnityEngine;
 
-public class MovingEnemy : MonoBehaviour
+public class MovingEnemyPatrol : MonoBehaviour
 {
     public Transform pointA; // Reference to the transform for Point A
     public Transform pointB; // Reference to the transform for Point B
     public float speed = 2f;
 
     private Transform target; // Current target point
-    private Vector3 originalScale; // To track the original sprite scale
+    private SpriteRenderer spriteRenderer; // Reference to the SpriteRenderer for flipping
 
     void Start()
     {
         // Start by moving toward Point B
         target = pointB;
 
-        // Store the original scale of the sprite
-        originalScale = transform.localScale;
+        // Get the SpriteRenderer component attached to the enemy
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     void Update()
@@ -23,16 +23,14 @@ public class MovingEnemy : MonoBehaviour
         // Move the enemy toward the target point
         transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
 
-        // Check if the enemy has reached the target point
+        // Flip the sprite based on the target direction
+        if (target == pointB && spriteRenderer.flipX) spriteRenderer.flipX = false;
+        else if (target == pointA && !spriteRenderer.flipX) spriteRenderer.flipX = true;
+
+        // Switch target when reaching the current target point
         if (Vector3.Distance(transform.position, target.position) < 0.1f)
         {
-            // Switch target when reaching the current target point
             target = target == pointA ? pointB : pointA;
-
-            // Flip the sprite by inverting the X scale
-            Vector3 newScale = originalScale;
-            newScale.x *= -1;
-            transform.localScale = newScale;
         }
     }
 }
