@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: e0bcb9639dc3a8e4d8427ec899ef0a29
+guid: 711482f0e5b432749926ffe9cc314bde
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -95,10 +95,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 16384
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,274 +110,169 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: torepolliise_0
+      name: pizzaphase1_move-Sheet_0
       rect:
         serializedVersion: 2
-        x: 360
-        y: 230
-        width: 480
-        height: 630
+        x: 199
+        y: 119
+        width: 1922
+        height: 1792
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 803b4a69208924a46b12465a243e5ff8
-      internalID: 886210950
+      spriteID: 49aa0a7cae55a4d47948620198d75cb9
+      internalID: -826938364
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torepolliise_1
+      name: pizzaphase1_move-Sheet_1
       rect:
         serializedVersion: 2
-        x: 1390
-        y: 230
-        width: 480
-        height: 630
+        x: 2559
+        y: 119
+        width: 1922
+        height: 1792
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1b9d15977827fe428f7c1e27087dd9a
-      internalID: -20359547
+      spriteID: 215062eca9ed26f489a278b325ca7ff7
+      internalID: 1249078106
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torepolliise_3
+      name: pizzaphase1_move-Sheet_2
       rect:
         serializedVersion: 2
-        x: 2370
-        y: 230
-        width: 530
-        height: 640
+        x: 4919
+        y: 119
+        width: 1922
+        height: 1792
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 741d363ad6b6e714397a388951ab146d
-      internalID: 1091083292
+      spriteID: 4320a2b51a8bd1f47af588f0d6cd1454
+      internalID: -909940669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torepolliise_5
+      name: pizzaphase1_move-Sheet_3
       rect:
         serializedVersion: 2
-        x: 3400
-        y: 230
-        width: 530
-        height: 640
+        x: 7279
+        y: 119
+        width: 1922
+        height: 1792
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c25c7048da22c1408365e330794767b
-      internalID: -797176906
+      spriteID: 774be7af8a51d964588e7aa8973b803e
+      internalID: 998072483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torepolliise_7
+      name: pizzaphase1_move-Sheet_4
       rect:
         serializedVersion: 2
-        x: 4410
-        y: 230
-        width: 630
-        height: 650
+        x: 9639
+        y: 120
+        width: 1922
+        height: 1791
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9926e6d70affd2344b74b9c548d7b2dd
-      internalID: 815754901
+      spriteID: 356ffd66964d54442854c8f7ee937c53
+      internalID: -1535976678
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torepolliise_8
+      name: pizzaphase1_move-Sheet_5
       rect:
         serializedVersion: 2
-        x: 5510
-        y: 230
-        width: 560
-        height: 630
+        x: 11999
+        y: 119
+        width: 1922
+        height: 1793
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebf1db88fd0839341a9314fd889d748a
-      internalID: -1270246724
+      spriteID: e0c191fda02584243bacc62137bd71aa
+      internalID: 707553984
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torepolliise_9
+      name: pizzaphase1_move-Sheet_6
       rect:
         serializedVersion: 2
-        x: 6540
-        y: 230
-        width: 480
-        height: 630
+        x: 14359
+        y: 119
+        width: 1922
+        height: 1792
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dbfd67e4572f5144b580146d01c71c2
-      internalID: -2021500202
+      spriteID: 8f2270f1a30e3de4c89014f9eb531d00
+      internalID: 1414691712
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torepolliise_10
+      name: pizzaphase1_move-Sheet_7
       rect:
         serializedVersion: 2
-        x: 7540
-        y: 230
-        width: 580
-        height: 630
+        x: 16719
+        y: 119
+        width: 1922
+        height: 1792
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5542fa4e10b3a43439032b44ff010d43
-      internalID: 766978648
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: torepolliise_11
-      rect:
-        serializedVersion: 2
-        x: 8600
-        y: 230
-        width: 480
-        height: 630
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ebb3f39c41f1b043b5a80d6f748ce6a
-      internalID: -513138777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: torepolliise_12
-      rect:
-        serializedVersion: 2
-        x: 9630
-        y: 230
-        width: 480
-        height: 630
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5523c7efba57a8a45be9f2e9027f38e3
-      internalID: -1311385733
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: torepolliise_13
-      rect:
-        serializedVersion: 2
-        x: 10660
-        y: 230
-        width: 480
-        height: 630
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 343ea1a9e182f51479a845ddf87ef9c7
-      internalID: 1965621637
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: torepolliise_14
-      rect:
-        serializedVersion: 2
-        x: 11690
-        y: 230
-        width: 480
-        height: 630
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3f5bec887ff3c9428784eee2a9f37c2
-      internalID: 620483495
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: torepolliise_15
-      rect:
-        serializedVersion: 2
-        x: 12720
-        y: 230
-        width: 480
-        height: 630
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84f771244a69fe24198d4c3993da1635
-      internalID: 816006928
+      spriteID: 4988e88871220614089527e1bd7fe08f
+      internalID: 289569872
       vertices: []
       indices: 
       edges: []
@@ -393,26 +288,14 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      torepolliise_0: 886210950
-      torepolliise_1: -20359547
-      torepolliise_10: 766978648
-      torepolliise_11: -513138777
-      torepolliise_12: -1311385733
-      torepolliise_13: 1965621637
-      torepolliise_14: 620483495
-      torepolliise_15: 816006928
-      torepolliise_16: 290102210
-      torepolliise_17: -1384142269
-      torepolliise_18: 647054618
-      torepolliise_19: 1136503478
-      torepolliise_2: 447551307
-      torepolliise_3: 1091083292
-      torepolliise_4: 57660398
-      torepolliise_5: -797176906
-      torepolliise_6: 1634407257
-      torepolliise_7: 815754901
-      torepolliise_8: -1270246724
-      torepolliise_9: -2021500202
+      pizzaphase1_move-Sheet_0: -826938364
+      pizzaphase1_move-Sheet_1: 1249078106
+      pizzaphase1_move-Sheet_2: -909940669
+      pizzaphase1_move-Sheet_3: 998072483
+      pizzaphase1_move-Sheet_4: -1535976678
+      pizzaphase1_move-Sheet_5: 707553984
+      pizzaphase1_move-Sheet_6: 1414691712
+      pizzaphase1_move-Sheet_7: 289569872
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
