@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 41138666103491869}
   - component: {fileID: 5708658200922254012}
   m_Layer: 11
-  m_Name: Spikes
+  m_Name: Spikes small
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -167,7 +167,7 @@ SpriteRenderer:
   m_SortingLayerID: -1276669369
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 0619354fab6a3d14fbde4de1ebc1a0e6, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 03512bacb0b50e54aa7bb6824dc86749, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
