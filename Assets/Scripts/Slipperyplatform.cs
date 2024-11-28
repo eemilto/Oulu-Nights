@@ -1,10 +1,11 @@
 using UnityEngine;
 
-public class SlipperyPlatform : MonoBehaviour
+public class SlipPlatform : MonoBehaviour
 {
-    public float moveSpeed = 5f;
-    public float frictionOnSlippery = 0.98f; // Between 0 and 1, closer to 1 for more slipperiness
-    private bool isOnSlipperyPlatform = false;
+    public float moveSpeed = 5f; // Movement speed of the player
+    public float frictionOnSlip = 0.95f; // Friction multiplier for slip platforms
+
+    private bool isOnSlipPlatform = false;
     private Rigidbody2D rb;
 
     void Start()
@@ -15,32 +16,33 @@ public class SlipperyPlatform : MonoBehaviour
     void Update()
     {
         float moveInput = Input.GetAxis("Horizontal");
-        if (isOnSlipperyPlatform)
+
+        if (isOnSlipPlatform)
         {
-            // Apply reduced friction on slippery platform
-            rb.velocity = new Vector2(rb.velocity.x * frictionOnSlippery, rb.velocity.y);
-            rb.AddForce(new Vector2(moveInput * moveSpeed, 0));
+            // Add horizontal force with reduced friction
+            rb.velocity = new Vector2(rb.velocity.x * frictionOnSlip, rb.velocity.y);
+            rb.AddForce(new Vector2(moveInput * moveSpeed, 0), ForceMode2D.Force);
         }
         else
         {
-            // Regular movement
+            // Directly control velocity on regular platforms
             rb.velocity = new Vector2(moveInput * moveSpeed, rb.velocity.y);
         }
     }
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Slippery"))
+        if (collision.gameObject.CompareTag("Slip"))
         {
-            isOnSlipperyPlatform = true;
+            isOnSlipPlatform = true;
         }
     }
 
     void OnCollisionExit2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Slippery"))
+        if (collision.gameObject.CompareTag("Slip"))
         {
-            isOnSlipperyPlatform = false;
+            isOnSlipPlatform = false;
         }
     }
 }
