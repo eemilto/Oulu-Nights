@@ -21,11 +21,17 @@ public class PlayerRespawn : MonoBehaviour
             return;
         }
 
+        if (playerHealth.IsDead())
+        {
+            uiManager.GameOver();
+            return;
+        }
+
         playerHealth.Respawn(); //Restore player health and reset animation
         transform.position = currentCheckpoint.position; //Move player to checkpoint location
 
         //Move the camera to the checkpoint's room
-        Camera.main.GetComponent<CameraController>().MoveToNewRoom(currentCheckpoint.parent);
+        //Camera.main.GetComponent<CameraController>().MoveToNewRoom(currentCheckpoint.parent);
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
@@ -34,7 +40,7 @@ public class PlayerRespawn : MonoBehaviour
             currentCheckpoint = collision.transform;
             SoundManager.instance.PlaySound(checkpoint);
             collision.GetComponent<Collider2D>().enabled = false;
-            collision.GetComponent<Animator>().SetTrigger("appear");
+            collision.GetComponent<Animator>().SetTrigger("appear");//
         }
     }
 }

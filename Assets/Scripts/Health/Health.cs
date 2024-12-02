@@ -91,4 +91,9 @@ public class Health : MonoBehaviour
         foreach (Behaviour component in components)
             component.enabled = true;
     }
+      // IsDead Method (New)
+    public bool IsDead()
+    {
+        return dead;
+    }
 }

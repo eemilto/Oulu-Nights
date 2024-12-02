@@ -133,9 +133,9 @@ GameObject:
   - component: {fileID: 6249534}
   - component: {fileID: 6249536}
   - component: {fileID: 6249535}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (23)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -369,9 +369,9 @@ GameObject:
   - component: {fileID: 62306760}
   - component: {fileID: 62306762}
   - component: {fileID: 62306761}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -814,9 +814,9 @@ GameObject:
   - component: {fileID: 130723137}
   - component: {fileID: 130723139}
   - component: {fileID: 130723138}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (27)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -944,9 +944,9 @@ GameObject:
   - component: {fileID: 139909614}
   - component: {fileID: 139909616}
   - component: {fileID: 139909615}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: small mayo platform lvl 2_0 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1074,9 +1074,9 @@ GameObject:
   - component: {fileID: 168582374}
   - component: {fileID: 168582376}
   - component: {fileID: 168582375}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: small mayo platform lvl 2_0 (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1203,9 +1203,10 @@ GameObject:
   m_Component:
   - component: {fileID: 178343930}
   - component: {fileID: 178343931}
-  m_Layer: 0
+  - component: {fileID: 178343932}
+  m_Layer: 8
   m_Name: Long mayo platform lvl 2_0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1277,6 +1278,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &178343932
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 178343929}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 32.7, y: 3.7}
+    newSize: {x: 32.7, y: 3.7}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 32.7, y: 3.7}
+  m_EdgeRadius: 0
 --- !u!1 &184395524
 GameObject:
   m_ObjectHideFlags: 0
@@ -1586,9 +1632,10 @@ GameObject:
   m_Component:
   - component: {fileID: 292825364}
   - component: {fileID: 292825365}
-  m_Layer: 0
+  - component: {fileID: 292825366}
+  m_Layer: 8
   m_Name: Long platform lvl 2_0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1660,6 +1707,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &292825366
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 292825363}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 70, y: 8.9}
+    newSize: {x: 70, y: 8.9}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 70, y: 8.9}
+  m_EdgeRadius: 0
 --- !u!1 &344932367
 GameObject:
   m_ObjectHideFlags: 0
@@ -1813,9 +1905,10 @@ GameObject:
   m_Component:
   - component: {fileID: 358697544}
   - component: {fileID: 358697545}
-  m_Layer: 0
+  - component: {fileID: 358697546}
+  m_Layer: 8
   m_Name: Long platform lvl 2_0 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1887,6 +1980,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &358697546
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 358697543}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 70, y: 8.9}
+    newSize: {x: 70, y: 8.9}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 70, y: 8.9}
+  m_EdgeRadius: 0
 --- !u!1001 &369042403
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1941,11 +2079,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9183130546930573464, guid: 3f65cc0cb8ab8fd4bb0b5d2f444b8e34, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 443.7
+      value: 317.6
       objectReference: {fileID: 0}
     - target: {fileID: 9183130546930573464, guid: 3f65cc0cb8ab8fd4bb0b5d2f444b8e34, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 47.3
+      value: 2.37
       objectReference: {fileID: 0}
     - target: {fileID: 9183130546930573464, guid: 3f65cc0cb8ab8fd4bb0b5d2f444b8e34, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2108,9 +2246,9 @@ GameObject:
   - component: {fileID: 376257289}
   - component: {fileID: 376257291}
   - component: {fileID: 376257290}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: small mayo platform lvl 2_0 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2237,9 +2375,10 @@ GameObject:
   m_Component:
   - component: {fileID: 387965743}
   - component: {fileID: 387965744}
-  m_Layer: 0
+  - component: {fileID: 387965745}
+  m_Layer: 8
   m_Name: Long platform lvl 2_0 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2311,6 +2450,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &387965745
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 387965742}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 70, y: 8.9}
+    newSize: {x: 70, y: 8.9}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 70, y: 8.9}
+  m_EdgeRadius: 0
 --- !u!1 &391446911 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6892443322804306276, guid: 12abc6ca2282623419a6c9ca7777111e, type: 3}
@@ -2366,9 +2550,9 @@ GameObject:
   - component: {fileID: 392156552}
   - component: {fileID: 392156554}
   - component: {fileID: 392156553}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2571,9 +2755,9 @@ GameObject:
   - component: {fileID: 398571700}
   - component: {fileID: 398571702}
   - component: {fileID: 398571701}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2913,9 +3097,9 @@ GameObject:
   - component: {fileID: 484134296}
   - component: {fileID: 484134298}
   - component: {fileID: 484134297}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3043,9 +3227,9 @@ GameObject:
   - component: {fileID: 490360632}
   - component: {fileID: 490360634}
   - component: {fileID: 490360633}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3173,9 +3357,9 @@ GameObject:
   - component: {fileID: 559419142}
   - component: {fileID: 559419144}
   - component: {fileID: 559419143}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (11)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3303,9 +3487,9 @@ GameObject:
   - component: {fileID: 560378634}
   - component: {fileID: 560378636}
   - component: {fileID: 560378635}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Small platform lvl 2_0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3502,9 +3686,9 @@ GameObject:
   - component: {fileID: 607234271}
   - component: {fileID: 607234273}
   - component: {fileID: 607234272}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -3896,9 +4080,9 @@ GameObject:
   - component: {fileID: 621954649}
   - component: {fileID: 621954651}
   - component: {fileID: 621954650}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (16)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4372,9 +4556,9 @@ GameObject:
   - component: {fileID: 707663998}
   - component: {fileID: 707664000}
   - component: {fileID: 707663999}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4501,9 +4685,9 @@ GameObject:
   m_Component:
   - component: {fileID: 736392655}
   - component: {fileID: 736392656}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Long mayo platform lvl 2_0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4845,9 +5029,10 @@ GameObject:
   m_Component:
   - component: {fileID: 757939033}
   - component: {fileID: 757939034}
-  m_Layer: 0
+  - component: {fileID: 757939035}
+  m_Layer: 8
   m_Name: Long platform lvl 2_0 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -4919,6 +5104,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &757939035
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 757939032}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 70, y: 8.9}
+    newSize: {x: 70, y: 8.9}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 70, y: 8.9}
+  m_EdgeRadius: 0
 --- !u!1 &773101316
 GameObject:
   m_ObjectHideFlags: 0
@@ -4930,9 +5160,9 @@ GameObject:
   - component: {fileID: 773101317}
   - component: {fileID: 773101319}
   - component: {fileID: 773101318}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (28)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5095,9 +5325,9 @@ GameObject:
   - component: {fileID: 819928698}
   - component: {fileID: 819928700}
   - component: {fileID: 819928699}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (19)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5497,9 +5727,9 @@ GameObject:
   - component: {fileID: 938914577}
   - component: {fileID: 938914579}
   - component: {fileID: 938914578}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (17)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5626,9 +5856,10 @@ GameObject:
   m_Component:
   - component: {fileID: 955434110}
   - component: {fileID: 955434111}
-  m_Layer: 0
+  - component: {fileID: 955434112}
+  m_Layer: 8
   m_Name: small mayo platform lvl 2_0 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -5700,6 +5931,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &955434112
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 955434109}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.9, y: 3.7}
+    newSize: {x: 5.9, y: 3.7}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.9, y: 3.7}
+  m_EdgeRadius: 0
 --- !u!1 &982833118
 GameObject:
   m_ObjectHideFlags: 0
@@ -5710,9 +5986,9 @@ GameObject:
   m_Component:
   - component: {fileID: 982833119}
   - component: {fileID: 982833120}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Long platform lvl 2_0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6087,9 +6363,9 @@ GameObject:
   - component: {fileID: 1032946158}
   - component: {fileID: 1032946160}
   - component: {fileID: 1032946159}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6216,9 +6492,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1054753655}
   - component: {fileID: 1054753656}
-  m_Layer: 0
+  - component: {fileID: 1054753657}
+  m_Layer: 8
   m_Name: Long mayo platform lvl 2_0 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6290,6 +6567,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1054753657
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1054753654}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 32.7, y: 3.7}
+    newSize: {x: 32.7, y: 3.7}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 32.7, y: 3.7}
+  m_EdgeRadius: 0
 --- !u!1 &1056950857
 GameObject:
   m_ObjectHideFlags: 0
@@ -6301,9 +6623,9 @@ GameObject:
   - component: {fileID: 1056950858}
   - component: {fileID: 1056950860}
   - component: {fileID: 1056950859}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: small mayo platform lvl 2_0 (6)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6545,9 +6867,9 @@ GameObject:
   - component: {fileID: 1097942140}
   - component: {fileID: 1097942142}
   - component: {fileID: 1097942141}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (7)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -6965,9 +7287,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1174381125}
   - component: {fileID: 1174381126}
-  m_Layer: 0
+  - component: {fileID: 1174381127}
+  m_Layer: 8
   m_Name: small mayo platform lvl 2_0 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7039,6 +7362,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1174381127
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1174381124}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.9, y: 3.7}
+    newSize: {x: 5.9, y: 3.7}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.9, y: 3.7}
+  m_EdgeRadius: 0
 --- !u!1 &1178466900
 GameObject:
   m_ObjectHideFlags: 0
@@ -7050,9 +7418,9 @@ GameObject:
   - component: {fileID: 1178466901}
   - component: {fileID: 1178466903}
   - component: {fileID: 1178466902}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7180,9 +7548,9 @@ GameObject:
   - component: {fileID: 1231366325}
   - component: {fileID: 1231366327}
   - component: {fileID: 1231366326}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: small mayo platform lvl 2_0 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7310,9 +7678,9 @@ GameObject:
   - component: {fileID: 1251675556}
   - component: {fileID: 1251675558}
   - component: {fileID: 1251675557}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (20)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7440,9 +7808,9 @@ GameObject:
   - component: {fileID: 1256284784}
   - component: {fileID: 1256284786}
   - component: {fileID: 1256284785}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: small mayo platform lvl 2_0 (4)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7569,9 +7937,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1263530117}
   - component: {fileID: 1263530118}
-  m_Layer: 0
+  - component: {fileID: 1263530119}
+  m_Layer: 8
   m_Name: small mayo platform lvl 2_0 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7643,6 +8012,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1263530119
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263530116}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.9, y: 3.7}
+    newSize: {x: 5.9, y: 3.7}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.9, y: 3.7}
+  m_EdgeRadius: 0
 --- !u!1 &1264175036
 GameObject:
   m_ObjectHideFlags: 0
@@ -7654,9 +8068,9 @@ GameObject:
   - component: {fileID: 1264175037}
   - component: {fileID: 1264175039}
   - component: {fileID: 1264175038}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7784,9 +8198,9 @@ GameObject:
   - component: {fileID: 1276077691}
   - component: {fileID: 1276077693}
   - component: {fileID: 1276077692}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: small mayo platform lvl 2_0 (8)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -7914,9 +8328,9 @@ GameObject:
   - component: {fileID: 1280270279}
   - component: {fileID: 1280270281}
   - component: {fileID: 1280270280}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (14)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8043,9 +8457,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1295901737}
   - component: {fileID: 1295901738}
-  m_Layer: 0
+  - component: {fileID: 1295901739}
+  m_Layer: 8
   m_Name: Medium mayo platform lvl 2_0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8117,6 +8532,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1295901739
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1295901736}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 14.7, y: 3.7}
+    newSize: {x: 14.7, y: 3.7}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 14.7, y: 3.7}
+  m_EdgeRadius: 0
 --- !u!1 &1308283361
 GameObject:
   m_ObjectHideFlags: 0
@@ -8159,9 +8619,9 @@ GameObject:
   - component: {fileID: 1310923629}
   - component: {fileID: 1310923631}
   - component: {fileID: 1310923630}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (13)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8289,9 +8749,9 @@ GameObject:
   - component: {fileID: 1328141427}
   - component: {fileID: 1328141429}
   - component: {fileID: 1328141428}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (10)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -8891,9 +9351,9 @@ GameObject:
   - component: {fileID: 1380806651}
   - component: {fileID: 1380806653}
   - component: {fileID: 1380806652}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9021,9 +9481,9 @@ GameObject:
   - component: {fileID: 1381257011}
   - component: {fileID: 1381257013}
   - component: {fileID: 1381257012}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (26)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9151,9 +9611,9 @@ GameObject:
   - component: {fileID: 1387092870}
   - component: {fileID: 1387092872}
   - component: {fileID: 1387092871}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (24)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9413,9 +9873,9 @@ GameObject:
   - component: {fileID: 1400026857}
   - component: {fileID: 1400026859}
   - component: {fileID: 1400026858}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: small mayo platform lvl 2_0 (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9580,9 +10040,9 @@ GameObject:
   - component: {fileID: 1439603408}
   - component: {fileID: 1439603410}
   - component: {fileID: 1439603409}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (18)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9710,9 +10170,9 @@ GameObject:
   - component: {fileID: 1443973164}
   - component: {fileID: 1443973166}
   - component: {fileID: 1443973165}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: small mayo platform lvl 2_0 (5)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9840,9 +10300,9 @@ GameObject:
   - component: {fileID: 1477135160}
   - component: {fileID: 1477135162}
   - component: {fileID: 1477135161}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (25)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9970,9 +10430,9 @@ GameObject:
   - component: {fileID: 1491203719}
   - component: {fileID: 1491203721}
   - component: {fileID: 1491203720}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10100,9 +10560,9 @@ GameObject:
   - component: {fileID: 1528101079}
   - component: {fileID: 1528101081}
   - component: {fileID: 1528101080}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10229,9 +10689,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1536614106}
   - component: {fileID: 1536614107}
-  m_Layer: 0
+  - component: {fileID: 1536614108}
+  m_Layer: 8
   m_Name: Long platform lvl 2_0 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10303,6 +10764,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1536614108
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1536614105}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 70, y: 8.9}
+    newSize: {x: 70, y: 8.9}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 70, y: 8.9}
+  m_EdgeRadius: 0
 --- !u!1 &1575314697
 GameObject:
   m_ObjectHideFlags: 0
@@ -10313,9 +10819,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1575314698}
   - component: {fileID: 1575314699}
-  m_Layer: 0
+  - component: {fileID: 1575314700}
+  m_Layer: 8
   m_Name: Long platform lvl 2_0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10387,6 +10894,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1575314700
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1575314697}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 70, y: 8.9}
+    newSize: {x: 70, y: 8.9}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 70, y: 8.9}
+  m_EdgeRadius: 0
 --- !u!1 &1593349644
 GameObject:
   m_ObjectHideFlags: 0
@@ -10397,9 +10949,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1593349645}
   - component: {fileID: 1593349646}
-  m_Layer: 0
+  - component: {fileID: 1593349647}
+  m_Layer: 8
   m_Name: Long platform lvl 2_0 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10471,6 +11024,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1593349647
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1593349644}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 70, y: 8.9}
+    newSize: {x: 70, y: 8.9}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 70, y: 8.9}
+  m_EdgeRadius: 0
 --- !u!1 &1600218521
 GameObject:
   m_ObjectHideFlags: 0
@@ -10550,9 +11148,9 @@ GameObject:
   - component: {fileID: 1626723475}
   - component: {fileID: 1626723477}
   - component: {fileID: 1626723476}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10680,9 +11278,9 @@ GameObject:
   - component: {fileID: 1646231282}
   - component: {fileID: 1646231284}
   - component: {fileID: 1646231283}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10810,9 +11408,9 @@ GameObject:
   - component: {fileID: 1668685206}
   - component: {fileID: 1668685208}
   - component: {fileID: 1668685207}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Long platform2 lvl 2_0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10940,9 +11538,9 @@ GameObject:
   - component: {fileID: 1678129571}
   - component: {fileID: 1678129573}
   - component: {fileID: 1678129572}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (30)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11070,9 +11668,9 @@ GameObject:
   - component: {fileID: 1703803669}
   - component: {fileID: 1703803671}
   - component: {fileID: 1703803670}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (29)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11199,9 +11797,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1740037250}
   - component: {fileID: 1740037251}
-  m_Layer: 0
+  - component: {fileID: 1740037252}
+  m_Layer: 8
   m_Name: Big platform lvl 2_0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11273,6 +11872,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1740037252
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1740037249}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 31.4, y: 17.2}
+    newSize: {x: 31.4, y: 17.2}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 31.4, y: 17.2}
+  m_EdgeRadius: 0
 --- !u!1 &1777419574
 GameObject:
   m_ObjectHideFlags: 0
@@ -11283,9 +11927,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1777419575}
   - component: {fileID: 1777419576}
-  m_Layer: 0
+  - component: {fileID: 1777419577}
+  m_Layer: 8
   m_Name: small mayo platform lvl 2_0 (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11357,6 +12002,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1777419577
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1777419574}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.9, y: 3.7}
+    newSize: {x: 5.9, y: 3.7}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.9, y: 3.7}
+  m_EdgeRadius: 0
 --- !u!1 &1818027259
 GameObject:
   m_ObjectHideFlags: 0
@@ -11443,9 +12133,9 @@ GameObject:
   - component: {fileID: 1844881494}
   - component: {fileID: 1844881496}
   - component: {fileID: 1844881495}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (15)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11613,9 +12303,9 @@ GameObject:
   - component: {fileID: 1887612636}
   - component: {fileID: 1887612638}
   - component: {fileID: 1887612637}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (22)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -11875,9 +12565,9 @@ GameObject:
   - component: {fileID: 1926369552}
   - component: {fileID: 1926369554}
   - component: {fileID: 1926369553}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (21)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12136,9 +12826,10 @@ GameObject:
   m_Component:
   - component: {fileID: 1939506732}
   - component: {fileID: 1939506733}
-  m_Layer: 0
+  - component: {fileID: 1939506734}
+  m_Layer: 8
   m_Name: small mayo platform lvl 2_0 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12210,6 +12901,51 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &1939506734
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1939506731}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 5.9, y: 3.7}
+    newSize: {x: 5.9, y: 3.7}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 5.9, y: 3.7}
+  m_EdgeRadius: 0
 --- !u!1 &1955321178
 GameObject:
   m_ObjectHideFlags: 0
@@ -12220,9 +12956,9 @@ GameObject:
   m_Component:
   - component: {fileID: 1955321179}
   - component: {fileID: 1955321180}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Long platform lvl 2_0 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12792,9 +13528,9 @@ GameObject:
   - component: {fileID: 2006718101}
   - component: {fileID: 2006718103}
   - component: {fileID: 2006718102}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: small mayo platform lvl 2_0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -12922,9 +13658,9 @@ GameObject:
   - component: {fileID: 2033493111}
   - component: {fileID: 2033493113}
   - component: {fileID: 2033493112}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (12)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13052,9 +13788,9 @@ GameObject:
   - component: {fileID: 2036802073}
   - component: {fileID: 2036802075}
   - component: {fileID: 2036802074}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (2)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13182,9 +13918,9 @@ GameObject:
   - component: {fileID: 2038748812}
   - component: {fileID: 2038748814}
   - component: {fileID: 2038748813}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground (3)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13403,9 +14139,9 @@ GameObject:
   m_Component:
   - component: {fileID: 2072038921}
   - component: {fileID: 2072038922}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (1)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13655,9 +14391,9 @@ GameObject:
   - component: {fileID: 2095421985}
   - component: {fileID: 2095421987}
   - component: {fileID: 2095421986}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ground
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13785,9 +14521,9 @@ GameObject:
   - component: {fileID: 2096843699}
   - component: {fileID: 2096843701}
   - component: {fileID: 2096843700}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -13983,9 +14719,9 @@ GameObject:
   - component: {fileID: 2114366100}
   - component: {fileID: 2114366102}
   - component: {fileID: 2114366101}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Big platform lvl 2_0 (9)
-  m_TagString: Untagged
+  m_TagString: Ground
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
