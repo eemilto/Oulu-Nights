@@ -9,6 +9,7 @@ TagManager:
   - Checkpoint
   - Salmon
   - Toripolliisi
+  - Slippery
   layers:
   - Default
   - TransparentFX

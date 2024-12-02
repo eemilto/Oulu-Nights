@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a5d7407a2e2ffeb46bb4e69512e3bab4
+guid: dc05dc64ce6d91643a4a955de9562ded
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -95,10 +95,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 16384
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,274 +110,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: torepolliise_0
+      name: Sprite-0001-Sheet_0
       rect:
         serializedVersion: 2
-        x: 360
-        y: 230
-        width: 480
-        height: 630
+        x: 0
+        y: 24021
+        width: 7000
+        height: 2979
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 803b4a69208924a46b12465a243e5ff8
-      internalID: 886210950
+      spriteID: 693ed58e8ca64c2479060a7e21394da0
+      internalID: 606680743
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torepolliise_1
+      name: Sprite-0001-Sheet_1
       rect:
         serializedVersion: 2
-        x: 1390
-        y: 230
-        width: 480
-        height: 630
+        x: 0
+        y: 21022
+        width: 7000
+        height: 2977
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b1b9d15977827fe428f7c1e27087dd9a
-      internalID: -20359547
+      spriteID: bb89f2c5494dc6e40934d7299076e321
+      internalID: -982054150
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torepolliise_3
+      name: Sprite-0001-Sheet_2
       rect:
         serializedVersion: 2
-        x: 2370
-        y: 230
-        width: 530
-        height: 640
+        x: 0
+        y: 18021
+        width: 7000
+        height: 2978
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 741d363ad6b6e714397a388951ab146d
-      internalID: 1091083292
+      spriteID: 13d2d4f39588ed144a2ba57b969304bf
+      internalID: 1186649433
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torepolliise_5
+      name: Sprite-0001-Sheet_3
       rect:
         serializedVersion: 2
-        x: 3400
-        y: 230
-        width: 530
-        height: 640
+        x: 0
+        y: 15022
+        width: 7000
+        height: 2976
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c25c7048da22c1408365e330794767b
-      internalID: -797176906
+      spriteID: 1895db34c7a97b24890511ca0b0d7781
+      internalID: -847539887
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torepolliise_7
+      name: Sprite-0001-Sheet_4
       rect:
         serializedVersion: 2
-        x: 4410
-        y: 230
-        width: 630
-        height: 650
+        x: 0
+        y: 12021
+        width: 7000
+        height: 2978
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9926e6d70affd2344b74b9c548d7b2dd
-      internalID: 815754901
+      spriteID: 36f2104a53a330549bda12b437f5f4ea
+      internalID: 1038354404
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torepolliise_8
+      name: Sprite-0001-Sheet_5
       rect:
         serializedVersion: 2
-        x: 5510
-        y: 230
-        width: 560
-        height: 630
+        x: 0
+        y: 9022
+        width: 7000
+        height: 2976
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebf1db88fd0839341a9314fd889d748a
-      internalID: -1270246724
+      spriteID: 52d649eca613ba64b84c224b7999b821
+      internalID: -1999761117
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torepolliise_9
+      name: Sprite-0001-Sheet_6
       rect:
         serializedVersion: 2
-        x: 6540
-        y: 230
-        width: 480
-        height: 630
+        x: 0
+        y: 6022
+        width: 7000
+        height: 2977
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dbfd67e4572f5144b580146d01c71c2
-      internalID: -2021500202
+      spriteID: 23d7de1b92dc4464eb9ad6aebc0a6263
+      internalID: -1765788306
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torepolliise_10
+      name: Sprite-0001-Sheet_7
       rect:
         serializedVersion: 2
-        x: 7540
-        y: 230
-        width: 580
-        height: 630
+        x: 0
+        y: 3021
+        width: 7000
+        height: 2977
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5542fa4e10b3a43439032b44ff010d43
-      internalID: 766978648
+      spriteID: 7993d3bac61492e4598c21302bea7fd4
+      internalID: -1533118844
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torepolliise_11
+      name: Sprite-0001-Sheet_8
       rect:
         serializedVersion: 2
-        x: 8600
-        y: 230
-        width: 480
-        height: 630
+        x: 0
+        y: 22
+        width: 7000
+        height: 2977
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ebb3f39c41f1b043b5a80d6f748ce6a
-      internalID: -513138777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: torepolliise_12
-      rect:
-        serializedVersion: 2
-        x: 9630
-        y: 230
-        width: 480
-        height: 630
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5523c7efba57a8a45be9f2e9027f38e3
-      internalID: -1311385733
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: torepolliise_13
-      rect:
-        serializedVersion: 2
-        x: 10660
-        y: 230
-        width: 480
-        height: 630
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 343ea1a9e182f51479a845ddf87ef9c7
-      internalID: 1965621637
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: torepolliise_14
-      rect:
-        serializedVersion: 2
-        x: 11690
-        y: 230
-        width: 480
-        height: 630
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b3f5bec887ff3c9428784eee2a9f37c2
-      internalID: 620483495
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: torepolliise_15
-      rect:
-        serializedVersion: 2
-        x: 12720
-        y: 230
-        width: 480
-        height: 630
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84f771244a69fe24198d4c3993da1635
-      internalID: 816006928
+      spriteID: 533c02cb624757c46b0bf42b07ca49e9
+      internalID: 444142729
       vertices: []
       indices: 
       edges: []
@@ -393,26 +309,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      torepolliise_0: 886210950
-      torepolliise_1: -20359547
-      torepolliise_10: 766978648
-      torepolliise_11: -513138777
-      torepolliise_12: -1311385733
-      torepolliise_13: 1965621637
-      torepolliise_14: 620483495
-      torepolliise_15: 816006928
-      torepolliise_16: 290102210
-      torepolliise_17: -1384142269
-      torepolliise_18: 647054618
-      torepolliise_19: 1136503478
-      torepolliise_2: 447551307
-      torepolliise_3: 1091083292
-      torepolliise_4: 57660398
-      torepolliise_5: -797176906
-      torepolliise_6: 1634407257
-      torepolliise_7: 815754901
-      torepolliise_8: -1270246724
-      torepolliise_9: -2021500202
+      Sprite-0001-Sheet_0: 606680743
+      Sprite-0001-Sheet_1: -982054150
+      Sprite-0001-Sheet_2: 1186649433
+      Sprite-0001-Sheet_3: -847539887
+      Sprite-0001-Sheet_4: 1038354404
+      Sprite-0001-Sheet_5: -1999761117
+      Sprite-0001-Sheet_6: -1765788306
+      Sprite-0001-Sheet_7: -1533118844
+      Sprite-0001-Sheet_8: 444142729
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

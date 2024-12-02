@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class MovingPlatforms : MonoBehaviour
+public class MovingPlatform : MonoBehaviour
 {
     public Vector3 pointA; // Starting point
     public Vector3 pointB; // Ending point
@@ -27,6 +27,7 @@ public class MovingPlatforms : MonoBehaviour
         }
     }
 
+    // Remove 'private' from these methods
     void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.CompareTag("Player"))
