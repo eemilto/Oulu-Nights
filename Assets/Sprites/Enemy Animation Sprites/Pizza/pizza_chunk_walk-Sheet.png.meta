@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: a5d7407a2e2ffeb46bb4e69512e3bab4
+guid: 8fff60b4a13b476478be63b468bb3662
 TextureImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -95,10 +95,10 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 16384
+    maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 0
+    textureCompression: 1
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -110,274 +110,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: torepolliise_0
+      name: pizza_chunk_walk-Sheet_0
       rect:
         serializedVersion: 2
-        x: 360
-        y: 230
-        width: 480
-        height: 630
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 803b4a69208924a46b12465a243e5ff8
-      internalID: 886210950
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: torepolliise_1
-      rect:
-        serializedVersion: 2
-        x: 1390
-        y: 230
-        width: 480
-        height: 630
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b1b9d15977827fe428f7c1e27087dd9a
-      internalID: -20359547
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: torepolliise_3
-      rect:
-        serializedVersion: 2
-        x: 2370
-        y: 230
-        width: 530
-        height: 640
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 741d363ad6b6e714397a388951ab146d
-      internalID: 1091083292
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: torepolliise_5
-      rect:
-        serializedVersion: 2
-        x: 3400
-        y: 230
-        width: 530
-        height: 640
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c25c7048da22c1408365e330794767b
-      internalID: -797176906
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: torepolliise_7
-      rect:
-        serializedVersion: 2
-        x: 4410
-        y: 230
-        width: 630
+        x: 70
+        y: 60
+        width: 670
         height: 650
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9926e6d70affd2344b74b9c548d7b2dd
-      internalID: 815754901
+      spriteID: 1a2c8d3e5c227f648939af02a40e5994
+      internalID: 1321520090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torepolliise_8
+      name: pizza_chunk_walk-Sheet_1
       rect:
         serializedVersion: 2
-        x: 5510
-        y: 230
-        width: 560
-        height: 630
+        x: 870
+        y: 70
+        width: 670
+        height: 650
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: ebf1db88fd0839341a9314fd889d748a
-      internalID: -1270246724
+      spriteID: c12b4e39441afdd46b91f1c5845dcdfb
+      internalID: 631967982
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torepolliise_9
+      name: pizza_chunk_walk-Sheet_2
       rect:
         serializedVersion: 2
-        x: 6540
-        y: 230
-        width: 480
-        height: 630
+        x: 1670
+        y: 70
+        width: 670
+        height: 670
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7dbfd67e4572f5144b580146d01c71c2
-      internalID: -2021500202
+      spriteID: f1f024eeb6ad8e3438f0882a5fb404a7
+      internalID: -1395524694
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torepolliise_10
+      name: pizza_chunk_walk-Sheet_3
       rect:
         serializedVersion: 2
-        x: 7540
-        y: 230
-        width: 580
-        height: 630
+        x: 2470
+        y: 80
+        width: 670
+        height: 680
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5542fa4e10b3a43439032b44ff010d43
-      internalID: 766978648
+      spriteID: 26e886a3ce950f94e9fb5507243b6928
+      internalID: -765118270
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torepolliise_11
+      name: pizza_chunk_walk-Sheet_4
       rect:
         serializedVersion: 2
-        x: 8600
-        y: 230
-        width: 480
-        height: 630
+        x: 3270
+        y: 90
+        width: 670
+        height: 680
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7ebb3f39c41f1b043b5a80d6f748ce6a
-      internalID: -513138777
+      spriteID: 59757ddceb0f5d549ac8fa95c9b2ab59
+      internalID: -406515234
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torepolliise_12
+      name: pizza_chunk_walk-Sheet_5
       rect:
         serializedVersion: 2
-        x: 9630
-        y: 230
-        width: 480
-        height: 630
+        x: 4070
+        y: 80
+        width: 670
+        height: 680
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 5523c7efba57a8a45be9f2e9027f38e3
-      internalID: -1311385733
+      spriteID: 9b5b3e646bf6fcd4f94c60512ed325c0
+      internalID: 1078357994
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torepolliise_13
+      name: pizza_chunk_walk-Sheet_6
       rect:
         serializedVersion: 2
-        x: 10660
-        y: 230
-        width: 480
-        height: 630
+        x: 4870
+        y: 50
+        width: 670
+        height: 670
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 343ea1a9e182f51479a845ddf87ef9c7
-      internalID: 1965621637
+      spriteID: 0e6a8e6ab1cf8874b95cc2f7821789fe
+      internalID: 1029253372
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torepolliise_14
+      name: pizza_chunk_walk-Sheet_7
       rect:
         serializedVersion: 2
-        x: 11690
-        y: 230
-        width: 480
-        height: 630
+        x: 5670
+        y: 20
+        width: 670
+        height: 680
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b3f5bec887ff3c9428784eee2a9f37c2
-      internalID: 620483495
+      spriteID: dec3ca99984827f4abd5fa747b36af6d
+      internalID: -596765243
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: torepolliise_15
+      name: pizza_chunk_walk-Sheet_8
       rect:
         serializedVersion: 2
-        x: 12720
-        y: 230
-        width: 480
-        height: 630
+        x: 6470
+        y: 40
+        width: 670
+        height: 670
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 84f771244a69fe24198d4c3993da1635
-      internalID: 816006928
+      spriteID: e4b70bc9b7763334c93ad2c4fe5a1a76
+      internalID: 1221796574
       vertices: []
       indices: 
       edges: []
@@ -393,26 +309,15 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     nameFileIdTable:
-      torepolliise_0: 886210950
-      torepolliise_1: -20359547
-      torepolliise_10: 766978648
-      torepolliise_11: -513138777
-      torepolliise_12: -1311385733
-      torepolliise_13: 1965621637
-      torepolliise_14: 620483495
-      torepolliise_15: 816006928
-      torepolliise_16: 290102210
-      torepolliise_17: -1384142269
-      torepolliise_18: 647054618
-      torepolliise_19: 1136503478
-      torepolliise_2: 447551307
-      torepolliise_3: 1091083292
-      torepolliise_4: 57660398
-      torepolliise_5: -797176906
-      torepolliise_6: 1634407257
-      torepolliise_7: 815754901
-      torepolliise_8: -1270246724
-      torepolliise_9: -2021500202
+      pizza_chunk_walk-Sheet_0: 1321520090
+      pizza_chunk_walk-Sheet_1: 631967982
+      pizza_chunk_walk-Sheet_2: -1395524694
+      pizza_chunk_walk-Sheet_3: -765118270
+      pizza_chunk_walk-Sheet_4: -406515234
+      pizza_chunk_walk-Sheet_5: 1078357994
+      pizza_chunk_walk-Sheet_6: 1029253372
+      pizza_chunk_walk-Sheet_7: -596765243
+      pizza_chunk_walk-Sheet_8: 1221796574
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
