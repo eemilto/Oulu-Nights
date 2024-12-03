@@ -26,7 +26,10 @@ public class UIManager : MonoBehaviour
     [SerializeField] private GameObject cutScene3;
 
     [Header ("Level 1")]
-    [SerializeField] private GameObject leVel1;    
+    [SerializeField] private GameObject leVel1;
+
+    [Header ("Level 2")]
+    [SerializeField] private GameObject leVel2;
 
 
     private void Awake()
@@ -89,7 +92,11 @@ public class UIManager : MonoBehaviour
         SceneManager.LoadScene(4);
     }
 
-
+    //Level 2
+    public void Level2()
+    {
+        SceneManager.LoadScene(5);
+    }
 
     //Options
     public void Options()
