@@ -16,6 +16,19 @@ public class UIManager : MonoBehaviour
     [Header ("Main Menu")]
     [SerializeField] private GameObject mainMenu;
 
+    [Header ("Cutscene 1")]
+    [SerializeField] private GameObject cutScene1;
+
+    [Header ("Cutscene 2")]
+    [SerializeField] private GameObject cutScene2;
+
+    [Header ("Cutscene 3")]
+    [SerializeField] private GameObject cutScene3;
+
+    [Header ("Level 1")]
+    [SerializeField] private GameObject leVel1;    
+
+
     private void Awake()
     {
         gameOverScreen.SetActive(false);
@@ -56,10 +69,28 @@ public class UIManager : MonoBehaviour
         SceneManager.LoadScene(1);
     }
 
+    //Cutscene 2
+    public void CutScene2()
+    {
+        SceneManager.LoadScene(2);
+    }
+
+    //Cutscene 3
+    public void CutScene3()
+    {
+        SceneManager.LoadScene(3);
+    }
+
+    //Level 1
+    public void Level1()
+    {
+        SceneManager.LoadScene(4);
+    }
+
     //Options
     public void Options()
     {
-        SceneManager.LoadScene(3);
+        SceneManager.LoadScene(7);
     }
 
     //Quit game/exit play mode if in Editor
