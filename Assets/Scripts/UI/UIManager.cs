@@ -64,10 +64,12 @@ public class UIManager : MonoBehaviour
     }
 
     //Start Game
-    public void StartGame()
+    public void CutScene1()
     {
         SceneManager.LoadScene(1);
     }
+
+
 
     //Cutscene 2
     public void CutScene2()
@@ -87,10 +89,12 @@ public class UIManager : MonoBehaviour
         SceneManager.LoadScene(4);
     }
 
+
+
     //Options
     public void Options()
     {
-        SceneManager.LoadScene(7);
+        SceneManager.LoadScene(6);
     }
 
     //Quit game/exit play mode if in Editor

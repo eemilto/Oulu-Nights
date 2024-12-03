@@ -9,14 +9,20 @@ EditorBuildSettings:
     path: Assets/Levels/_MainMenu.unity
     guid: 44e2ec4197815af418abc7a84d755837
   - enabled: 1
-    path: Assets/Levels/Joo.unity
-    guid: 8e2d951c785ef234bb94b8b82a9ba9cb
+    path: Assets/Levels/Cutscene1.unity
+    guid: 769305970efbb3645a36b49e49504183
+  - enabled: 1
+    path: Assets/Levels/Cutscene2.unity
+    guid: 73a1d7f30ab5c604ab318e72b5ff9bf4
+  - enabled: 1
+    path: Assets/Levels/Cutscene3.unity
+    guid: 976ff82a247d50f49ba85f9df3deabd9
   - enabled: 1
     path: Assets/Levels/Level1.unity
     guid: 1ad403f46341902499571565f2b254a3
   - enabled: 1
     path: Assets/Levels/Level2.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
+    guid: 28b4d35089f81ce47a9af8d968adda37
   - enabled: 1
     path: Assets/Levels/Options.unity
     guid: 8523f5ee6e9e4cb4688d2ad6eac19fbc
