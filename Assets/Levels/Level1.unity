@@ -9521,6 +9521,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   victoryScreen: {fileID: 1563460900}
+  confettiAnimator: {fileID: 0}
 --- !u!212 &1112251510
 SpriteRenderer:
   m_ObjectHideFlags: 0
