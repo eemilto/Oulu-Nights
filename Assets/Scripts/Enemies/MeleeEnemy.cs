@@ -1,3 +1,4 @@
+/*
 using UnityEngine;
 
 public class MeleeEnemy : MonoBehaviour
@@ -73,3 +74,4 @@ public class MeleeEnemy : MonoBehaviour
             playerHealth.TakeDamage(damage);
     }
 }
+*/
