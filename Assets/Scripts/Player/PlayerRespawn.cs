@@ -18,18 +18,24 @@ public class PlayerRespawn : MonoBehaviour
     /// </summary>
     public void RespawnCheck()
     {
-        if (currentCheckpoint == null) 
-        {
-            // No checkpoint reached, trigger game over
-            uiManager.GameOver();
-            return;
-        }
-
-        // Ensure the player is respawned if dead
         if (playerHealth.IsDead())
         {
+            // Pause the game
+            Time.timeScale = 0;
+
+            if (currentCheckpoint == null)
+            {
+                // No checkpoint reached, trigger game over
+                uiManager.GameOver();
+                return;
+            }
+
+            // Respawn logic when a checkpoint exists
             playerHealth.Respawn(); // Restore health and reset any death state
             transform.position = currentCheckpoint.position; // Move player to the checkpoint
+
+            // Resume the game
+            Time.timeScale = 1;
         }
     }
 
