@@ -6,7 +6,7 @@ public class EnemyShooting : MonoBehaviour
 {
     public GameObject bullet;
     public Transform bulletPos;
-    private float timer;
+    [SerializeField] private float timer;
     private GameObject player;
     // Start is called before the first frame update
     void Start()
