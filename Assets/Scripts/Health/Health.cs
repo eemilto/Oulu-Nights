@@ -41,18 +41,20 @@ public class Health : MonoBehaviour
         }
         else
         {
-            if (!dead)
-            {
-                //Deactivate all attached component classes
-                foreach (Behaviour component in components)
-                    component.enabled = false;
+        
+        if (!IsDead()) // Use IsDead() to check the state
+        {
+            // Deactivate all attached component classes
+            foreach (Behaviour component in components)
+                component.enabled = false;
 
-                anim.SetBool("grounded", true);
+            anim.SetBool("grounded", true);
                 anim.SetTrigger("die");
 
-                dead = true;
+            dead = true; // Mark the player as dead
                 SoundManager.instance.PlaySound(deathSound);
-            }
+}
+
         }
     }
     public void AddHealth(float _value)
@@ -91,7 +93,7 @@ public class Health : MonoBehaviour
         foreach (Behaviour component in components)
             component.enabled = true;
     }
-      // IsDead Method (New)
+      // IsDead Method
     public bool IsDead()
     {
         return dead;

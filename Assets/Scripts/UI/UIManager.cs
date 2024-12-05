@@ -34,7 +34,7 @@ public class UIManager : MonoBehaviour
 
     private void Awake()
     {
-        gameOverScreen.SetActive(false);
+        gameOverScreen.SetActive(false); // Initially hide the Game Over screen
         pauseScreen.SetActive(false);
     }
     private void Update()
@@ -50,8 +50,8 @@ public class UIManager : MonoBehaviour
     //Activate game over screen
     public void GameOver()
     {
-        gameOverScreen.SetActive(true);
-        SoundManager.instance.PlaySound(gameOverSound);
+        gameOverScreen.SetActive(true); // Show the Game Over screen
+        SoundManager.instance.PlaySound(gameOverSound); // Play Game Over sound
     }
 
     //Restart level
