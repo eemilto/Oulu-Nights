@@ -49,6 +49,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damage: 1
+  animator: {fileID: 0}
 --- !u!61 &5708658200922254012
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -121,7 +122,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -12.21, y: -1.65, z: 1.3991158}
-  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_LocalScale: {x: 46.96, y: 5.8, z: 5}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 4147155764896725586}
@@ -167,12 +168,12 @@ SpriteRenderer:
   m_SortingLayerID: -1276669369
   m_SortingLayer: 3
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 03512bacb0b50e54aa7bb6824dc86749, type: 3}
+  m_Sprite: {fileID: -695686828, guid: d5a9eb9b433282644aea6fc07f83420c, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 21, y: 9.300293}
+  m_Size: {x: 70, y: 5.8}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
