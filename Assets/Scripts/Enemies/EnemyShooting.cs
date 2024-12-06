@@ -1,5 +1,4 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyShooting : MonoBehaviour
@@ -8,32 +7,42 @@ public class EnemyShooting : MonoBehaviour
     public Transform bulletPos;
     [SerializeField] private float timer;
     private GameObject player;
-    // Start is called before the first frame update
+    private Animator animator;
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
+        animator = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-
         float distance = Vector2.Distance(transform.position, player.transform.position);
-        Debug.Log(distance);
 
-        if(distance < 70)
+        if (distance < 70)
         {
-           timer += Time.deltaTime;
+            timer += Time.deltaTime;
 
-        if(timer > 6)
-        {
-            timer = 0;
-            shoot();
+            if (timer > 6)
+            {
+                timer = 0;
+                TriggerAttack();
+            }
         }
-        }
-
-       
     }
+
+    void TriggerAttack()
+    {
+        animator?.SetTrigger("Attack");
+        StartCoroutine(ShootAfterDelay(0.5f));
+    }
+
+    IEnumerator ShootAfterDelay(float delay)
+    {
+        yield return new WaitForSeconds(delay);
+        shoot();
+    }
+
     void shoot()
     {
         Instantiate(bullet, bulletPos.position, Quaternion.identity);
