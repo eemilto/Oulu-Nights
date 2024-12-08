@@ -9,10 +9,15 @@ public class EnemyShooting : MonoBehaviour
     private GameObject player;
     private Animator animator;
 
+    [Header("Audio")]
+    [SerializeField] private AudioClip shootSound; // Assign your snowball sound effect here
+    private AudioSource audioSource;
+
     void Start()
     {
         player = GameObject.FindGameObjectWithTag("Player");
         animator = GetComponent<Animator>();
+        audioSource = GetComponent<AudioSource>();
     }
 
     void Update()
@@ -46,5 +51,11 @@ public class EnemyShooting : MonoBehaviour
     void shoot()
     {
         Instantiate(bullet, bulletPos.position, Quaternion.identity);
+
+        // Play the shooting sound
+        if (shootSound != null && audioSource != null)
+        {
+            audioSource.PlayOneShot(shootSound);
+        }
     }
 }

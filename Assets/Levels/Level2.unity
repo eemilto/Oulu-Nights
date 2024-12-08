@@ -1871,7 +1871,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 993875901
   m_SortingLayer: 5
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: -1698864581, guid: fe4335f185231fa498fa0e78911f34c1, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -2631,6 +2631,7 @@ MonoBehaviour:
   bullet: {fileID: 3327187965146735327, guid: cace98b906d03a84da34c04b7e18cb69, type: 3}
   bulletPos: {fileID: 308533029}
   timer: 0
+  shootSound: {fileID: 0}
 --- !u!114 &322112702
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5182,6 +5183,7 @@ MonoBehaviour:
   bullet: {fileID: 3327187965146735327, guid: cace98b906d03a84da34c04b7e18cb69, type: 3}
   bulletPos: {fileID: 885897753}
   timer: 0
+  shootSound: {fileID: 0}
 --- !u!114 &475242574
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6510,6 +6512,7 @@ MonoBehaviour:
   bullet: {fileID: 3327187965146735327, guid: cace98b906d03a84da34c04b7e18cb69, type: 3}
   bulletPos: {fileID: 785077538}
   timer: 0
+  shootSound: {fileID: 0}
 --- !u!114 &576801523
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8817,6 +8820,7 @@ MonoBehaviour:
   bullet: {fileID: 3327187965146735327, guid: cace98b906d03a84da34c04b7e18cb69, type: 3}
   bulletPos: {fileID: 279573773}
   timer: 0
+  shootSound: {fileID: 0}
 --- !u!114 &729681576
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10099,7 +10103,6 @@ GameObject:
   - component: {fileID: 805404079}
   - component: {fileID: 805404086}
   - component: {fileID: 805404085}
-  - component: {fileID: 805404084}
   - component: {fileID: 805404083}
   - component: {fileID: 805404082}
   - component: {fileID: 805404081}
@@ -10239,21 +10242,7 @@ MonoBehaviour:
   bullet: {fileID: 3327187965146735327, guid: cace98b906d03a84da34c04b7e18cb69, type: 3}
   bulletPos: {fileID: 2001485726}
   timer: 0
---- !u!114 &805404084
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 805404077}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 01c1916b483033f408518c1515cb454e, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointA: {fileID: 0}
-  pointB: {fileID: 0}
-  speed: 2
+  shootSound: {fileID: 0}
 --- !u!50 &805404085
 Rigidbody2D:
   serializedVersion: 4
@@ -11009,6 +10998,7 @@ MonoBehaviour:
   bullet: {fileID: 3327187965146735327, guid: cace98b906d03a84da34c04b7e18cb69, type: 3}
   bulletPos: {fileID: 726853064}
   timer: 0
+  shootSound: {fileID: 0}
 --- !u!114 &855555750
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12007,6 +11997,7 @@ MonoBehaviour:
   bullet: {fileID: 3327187965146735327, guid: cace98b906d03a84da34c04b7e18cb69, type: 3}
   bulletPos: {fileID: 1545189988}
   timer: 0
+  shootSound: {fileID: 0}
 --- !u!114 &978728799
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -16520,8 +16511,8 @@ Transform:
   m_GameObject: {fileID: 1380806650}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 719.4809, y: -1.9310999, z: 0}
-  m_LocalScale: {x: 33.92181, y: 13.206354, z: 1}
+  m_LocalPosition: {x: 719.4809, y: -0.3102, z: 0}
+  m_LocalScale: {x: 33.92181, y: 16.448513, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 676860320}
@@ -17746,7 +17737,7 @@ GameObject:
   - component: {fileID: 1482892533}
   m_Layer: 0
   m_Name: logo-01
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -17848,8 +17839,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1276669369
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b8fd0054a0250ef4fa5414ffef02199b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -20380,6 +20371,7 @@ MonoBehaviour:
   bullet: {fileID: 3327187965146735327, guid: cace98b906d03a84da34c04b7e18cb69, type: 3}
   bulletPos: {fileID: 1867035936}
   timer: 0
+  shootSound: {fileID: 0}
 --- !u!114 &1680843616
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20976,7 +20968,7 @@ SpriteRenderer:
   m_LightmapParameters: {fileID: 0}
   m_SortingLayerID: 993875901
   m_SortingLayer: 5
-  m_SortingOrder: 1
+  m_SortingOrder: 0
   m_Sprite: {fileID: 1114907466, guid: bc3469a8833e76a46b90a670c42bba76, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
@@ -21731,6 +21723,7 @@ MonoBehaviour:
   bullet: {fileID: 3327187965146735327, guid: cace98b906d03a84da34c04b7e18cb69, type: 3}
   bulletPos: {fileID: 1707927982}
   timer: 0
+  shootSound: {fileID: 0}
 --- !u!114 &1855002398
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23717,6 +23710,7 @@ MonoBehaviour:
   bullet: {fileID: 3327187965146735327, guid: cace98b906d03a84da34c04b7e18cb69, type: 3}
   bulletPos: {fileID: 1451354722}
   timer: 0
+  shootSound: {fileID: 0}
 --- !u!114 &1976573479
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -25690,8 +25684,8 @@ Transform:
   m_GameObject: {fileID: 2072038920}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 711.94, y: 9.832078, z: 0}
-  m_LocalScale: {x: 0.6, y: 0.6, z: 1}
+  m_LocalPosition: {x: 711.94, y: 11.453, z: 0}
+  m_LocalScale: {x: 0.6, y: 0.41154, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 938755669}

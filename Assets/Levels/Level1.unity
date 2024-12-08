@@ -254,6 +254,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   animator: {fileID: 0}
+  damageSound: {fileID: 0}
 --- !u!61 &43426878
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -476,6 +477,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 3
   animator: {fileID: 0}
+  damageSound: {fileID: 0}
 --- !u!61 &47048410
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2155,6 +2157,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 3
   animator: {fileID: 0}
+  damageSound: {fileID: 0}
 --- !u!61 &375318770
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3771,6 +3774,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 50
+  bounceForce: 10
 --- !u!61 &530412717
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -3831,6 +3835,7 @@ MonoBehaviour:
   pointA: {fileID: 1730507348}
   pointB: {fileID: 490917473}
   speed: 6
+  movementSound: {fileID: 0}
 --- !u!50 &530412720
 Rigidbody2D:
   serializedVersion: 4
@@ -4045,6 +4050,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 50
+  bounceForce: 10
 --- !u!61 &535430890
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4105,6 +4111,7 @@ MonoBehaviour:
   pointA: {fileID: 641554371}
   pointB: {fileID: 1942004248}
   speed: 6
+  movementSound: {fileID: 0}
 --- !u!50 &535430893
 Rigidbody2D:
   serializedVersion: 4
@@ -4350,6 +4357,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 3
   animator: {fileID: 0}
+  damageSound: {fileID: 0}
 --- !u!61 &538425713
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4715,6 +4723,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 50
+  bounceForce: 10
 --- !u!61 &581203588
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -4775,6 +4784,7 @@ MonoBehaviour:
   pointA: {fileID: 1413888682}
   pointB: {fileID: 1728072756}
   speed: 6
+  movementSound: {fileID: 0}
 --- !u!50 &581203591
 Rigidbody2D:
   serializedVersion: 4
@@ -5163,6 +5173,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 3
   animator: {fileID: 0}
+  damageSound: {fileID: 0}
 --- !u!61 &631692282
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5483,6 +5494,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 3
   animator: {fileID: 0}
+  damageSound: {fileID: 0}
 --- !u!61 &636249627
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5873,6 +5885,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   animator: {fileID: 535430895}
+  damageSound: {fileID: 8300000, guid: 22114e36113f68845a1d9d7d87cab091, type: 3}
 --- !u!61 &687301891
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6547,6 +6560,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 50
+  bounceForce: 10
 --- !u!61 &731016085
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -6607,6 +6621,7 @@ MonoBehaviour:
   pointA: {fileID: 828464932}
   pointB: {fileID: 416044457}
   speed: 6
+  movementSound: {fileID: 0}
 --- !u!50 &731016088
 Rigidbody2D:
   serializedVersion: 4
@@ -8500,6 +8515,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   animator: {fileID: 1141762448}
+  damageSound: {fileID: 8300000, guid: 22114e36113f68845a1d9d7d87cab091, type: 3}
 --- !u!61 &971537825
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9083,6 +9099,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   animator: {fileID: 731016090}
+  damageSound: {fileID: 8300000, guid: 22114e36113f68845a1d9d7d87cab091, type: 3}
 --- !u!61 &1077989487
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9273,6 +9290,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 3
   animator: {fileID: 0}
+  damageSound: {fileID: 0}
 --- !u!61 &1081122873
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9332,7 +9350,7 @@ GameObject:
   - component: {fileID: 1112251512}
   m_Layer: 0
   m_Name: logo-01
-  m_TagString: Untagged
+  m_TagString: Checkpoint
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -9389,8 +9407,8 @@ SpriteRenderer:
   m_AutoUVMaxDistance: 0.5
   m_AutoUVMaxAngle: 89
   m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
+  m_SortingLayerID: -1276669369
+  m_SortingLayer: 3
   m_SortingOrder: 0
   m_Sprite: {fileID: 21300000, guid: b8fd0054a0250ef4fa5414ffef02199b, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
@@ -9713,6 +9731,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 3
   animator: {fileID: 0}
+  damageSound: {fileID: 0}
 --- !u!61 &1140149660
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -9827,6 +9846,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 50
+  bounceForce: 10
 --- !u!61 &1141762444
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10032,6 +10052,7 @@ MonoBehaviour:
   pointA: {fileID: 984982312}
   pointB: {fileID: 1931880457}
   speed: 6
+  movementSound: {fileID: 0}
 --- !u!1 &1143034853
 GameObject:
   m_ObjectHideFlags: 0
@@ -10251,6 +10272,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 50
+  bounceForce: 10
 --- !u!61 &1143333940
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10311,6 +10333,7 @@ MonoBehaviour:
   pointA: {fileID: 128774689}
   pointB: {fileID: 1458250194}
   speed: 6
+  movementSound: {fileID: 0}
 --- !u!50 &1143333943
 Rigidbody2D:
   serializedVersion: 4
@@ -11144,6 +11167,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 3
   animator: {fileID: 0}
+  damageSound: {fileID: 0}
 --- !u!61 &1199153078
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -11542,6 +11566,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   animator: {fileID: 1143333945}
+  damageSound: {fileID: 8300000, guid: 22114e36113f68845a1d9d7d87cab091, type: 3}
 --- !u!61 &1271898420
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -12297,6 +12322,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 3
   animator: {fileID: 0}
+  damageSound: {fileID: 0}
 --- !u!61 &1312290614
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13367,6 +13393,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 3
   animator: {fileID: 0}
+  damageSound: {fileID: 0}
 --- !u!61 &1410569668
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13857,6 +13884,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 3
   animator: {fileID: 0}
+  damageSound: {fileID: 0}
 --- !u!61 &1449004808
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15191,6 +15219,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 50
+  bounceForce: 10
 --- !u!61 &1601674243
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16530,6 +16559,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 3
   animator: {fileID: 0}
+  damageSound: {fileID: 0}
 --- !u!61 &1748754055
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -17229,6 +17259,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   damageAmount: 50
+  bounceForce: 10
 --- !u!114 &1809678666 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 6530384780264300336, guid: 12abc6ca2282623419a6c9ca7777111e, type: 3}
@@ -17603,6 +17634,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   animator: {fileID: 530412722}
+  damageSound: {fileID: 8300000, guid: 22114e36113f68845a1d9d7d87cab091, type: 3}
 --- !u!61 &1836102930
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18940,6 +18972,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   animator: {fileID: 581203593}
+  damageSound: {fileID: 8300000, guid: 22114e36113f68845a1d9d7d87cab091, type: 3}
 --- !u!61 &2054756243
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19130,6 +19163,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 3
   animator: {fileID: 0}
+  damageSound: {fileID: 0}
 --- !u!61 &2059853344
 BoxCollider2D:
   m_ObjectHideFlags: 0
