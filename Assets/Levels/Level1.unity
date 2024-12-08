@@ -3761,6 +3761,8 @@ MonoBehaviour:
   health: 100
   damageAnimationDuration: 0.5
   deathAnimationDuration: 1
+  damageSound: {fileID: 0}
+  deathSound: {fileID: 0}
 --- !u!114 &530412716
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4037,6 +4039,8 @@ MonoBehaviour:
   health: 100
   damageAnimationDuration: 0.5
   deathAnimationDuration: 1
+  damageSound: {fileID: 0}
+  deathSound: {fileID: 0}
 --- !u!114 &535430889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -4710,6 +4714,8 @@ MonoBehaviour:
   health: 100
   damageAnimationDuration: 0.5
   deathAnimationDuration: 1
+  damageSound: {fileID: 0}
+  deathSound: {fileID: 0}
 --- !u!114 &581203587
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6547,6 +6553,8 @@ MonoBehaviour:
   health: 100
   damageAnimationDuration: 0.5
   deathAnimationDuration: 1
+  damageSound: {fileID: 0}
+  deathSound: {fileID: 0}
 --- !u!114 &731016084
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9833,6 +9841,8 @@ MonoBehaviour:
   health: 100
   damageAnimationDuration: 0.5
   deathAnimationDuration: 1
+  damageSound: {fileID: 0}
+  deathSound: {fileID: 0}
 --- !u!114 &1141762443
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10259,6 +10269,8 @@ MonoBehaviour:
   health: 100
   damageAnimationDuration: 0.5
   deathAnimationDuration: 1
+  damageSound: {fileID: 8300000, guid: b79cd691e21e16542802500a998ffac1, type: 3}
+  deathSound: {fileID: 8300000, guid: 843c90e9251b6d842a86ae47d0d4ca6d, type: 3}
 --- !u!114 &1143333939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -15206,6 +15218,8 @@ MonoBehaviour:
   health: 100
   damageAnimationDuration: 0.5
   deathAnimationDuration: 1.5
+  damageSound: {fileID: 0}
+  deathSound: {fileID: 0}
 --- !u!114 &1601674242
 MonoBehaviour:
   m_ObjectHideFlags: 0
