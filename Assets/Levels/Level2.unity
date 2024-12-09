@@ -667,6 +667,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   animator: {fileID: 855555745}
+  damageSound: {fileID: 0}
 --- !u!61 &26757289
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1084,6 +1085,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   animator: {fileID: 729681571}
+  damageSound: {fileID: 0}
 --- !u!61 &101683850
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -2616,6 +2618,8 @@ MonoBehaviour:
   health: 100
   damageAnimationDuration: 0.5
   deathAnimationDuration: 1
+  damageSound: {fileID: 0}
+  deathSound: {fileID: 0}
 --- !u!114 &322112701
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2647,6 +2651,7 @@ MonoBehaviour:
   pointA: {fileID: 906763630}
   pointB: {fileID: 1056491040}
   speed: 2
+  movementSound: {fileID: 0}
 --- !u!50 &322112703
 Rigidbody2D:
   serializedVersion: 4
@@ -5168,6 +5173,8 @@ MonoBehaviour:
   health: 100
   damageAnimationDuration: 0.5
   deathAnimationDuration: 1
+  damageSound: {fileID: 0}
+  deathSound: {fileID: 0}
 --- !u!114 &475242573
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5199,6 +5206,7 @@ MonoBehaviour:
   pointA: {fileID: 551566267}
   pointB: {fileID: 1198229500}
   speed: 2
+  movementSound: {fileID: 0}
 --- !u!50 &475242575
 Rigidbody2D:
   serializedVersion: 4
@@ -6497,6 +6505,8 @@ MonoBehaviour:
   health: 100
   damageAnimationDuration: 0.5
   deathAnimationDuration: 1
+  damageSound: {fileID: 0}
+  deathSound: {fileID: 0}
 --- !u!114 &576801522
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -6528,6 +6538,7 @@ MonoBehaviour:
   pointA: {fileID: 1946765474}
   pointB: {fileID: 473070145}
   speed: 2
+  movementSound: {fileID: 0}
 --- !u!50 &576801524
 Rigidbody2D:
   serializedVersion: 4
@@ -7487,6 +7498,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   animator: {fileID: 1976573471}
+  damageSound: {fileID: 0}
 --- !u!61 &612566217
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -8805,6 +8817,8 @@ MonoBehaviour:
   health: 100
   damageAnimationDuration: 0.5
   deathAnimationDuration: 1
+  damageSound: {fileID: 0}
+  deathSound: {fileID: 0}
 --- !u!114 &729681575
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8836,6 +8850,7 @@ MonoBehaviour:
   pointA: {fileID: 1760420309}
   pointB: {fileID: 2144247650}
   speed: 4
+  movementSound: {fileID: 0}
 --- !u!50 &729681577
 Rigidbody2D:
   serializedVersion: 4
@@ -10227,6 +10242,8 @@ MonoBehaviour:
   health: 100
   damageAnimationDuration: 0.5
   deathAnimationDuration: 1
+  damageSound: {fileID: 0}
+  deathSound: {fileID: 0}
 --- !u!114 &805404083
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10983,6 +11000,8 @@ MonoBehaviour:
   health: 100
   damageAnimationDuration: 0.5
   deathAnimationDuration: 1
+  damageSound: {fileID: 0}
+  deathSound: {fileID: 0}
 --- !u!114 &855555749
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11014,6 +11033,7 @@ MonoBehaviour:
   pointA: {fileID: 1642446117}
   pointB: {fileID: 104687012}
   speed: 2
+  movementSound: {fileID: 0}
 --- !u!50 &855555751
 Rigidbody2D:
   serializedVersion: 4
@@ -11133,6 +11153,182 @@ SpriteRenderer:
   m_FlipY: 0
   m_DrawMode: 1
   m_Size: {x: 10.7, y: 7.6}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
+--- !u!1 &861113700
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 861113701}
+  - component: {fileID: 861113704}
+  - component: {fileID: 861113703}
+  - component: {fileID: 861113702}
+  m_Layer: 0
+  m_Name: Long platform lvl 2_0 (6)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &861113701
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861113700}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0.7071068, w: 0.7071068}
+  m_LocalPosition: {x: 853.9, y: 31.9, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 938755669}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 90}
+--- !u!61 &861113702
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861113700}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 70, y: 8.9}
+    newSize: {x: 70, y: 8.9}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 70, y: 8.9}
+  m_EdgeRadius: 0
+--- !u!61 &861113703
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861113700}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 70, y: 8.9}
+    newSize: {x: 70, y: 8.9}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 70, y: 8.9}
+  m_EdgeRadius: 0
+--- !u!212 &861113704
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 861113700}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 671490221, guid: dd084e6acd2708f46820613c46d641e8, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 70, y: 8.9}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
@@ -11561,6 +11757,8 @@ Transform:
   - {fileID: 2072038921}
   - {fileID: 736392655}
   - {fileID: 1955321179}
+  - {fileID: 861113701}
+  - {fileID: 1760079892}
   - {fileID: 982833119}
   - {fileID: 178789278}
   m_Father: {fileID: 676860320}
@@ -11982,6 +12180,8 @@ MonoBehaviour:
   health: 100
   damageAnimationDuration: 0.5
   deathAnimationDuration: 1
+  damageSound: {fileID: 0}
+  deathSound: {fileID: 0}
 --- !u!114 &978728798
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12013,6 +12213,7 @@ MonoBehaviour:
   pointA: {fileID: 481386894}
   pointB: {fileID: 524333487}
   speed: 2
+  movementSound: {fileID: 0}
 --- !u!50 &978728800
 Rigidbody2D:
   serializedVersion: 4
@@ -13197,6 +13398,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   animator: {fileID: 475242569}
+  damageSound: {fileID: 0}
 --- !u!61 &1088130434
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -13543,6 +13745,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 3
   animator: {fileID: 0}
+  damageSound: {fileID: 0}
 --- !u!61 &1099464179
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -14694,6 +14897,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   animator: {fileID: 322112697}
+  damageSound: {fileID: 0}
 --- !u!61 &1260890405
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15092,6 +15296,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   animator: {fileID: 805404079}
+  damageSound: {fileID: 0}
 --- !u!61 &1267501049
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -18940,6 +19145,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   animator: {fileID: 978728794}
+  damageSound: {fileID: 0}
 --- !u!61 &1578803599
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -20356,6 +20562,8 @@ MonoBehaviour:
   health: 100
   damageAnimationDuration: 0.5
   deathAnimationDuration: 1
+  damageSound: {fileID: 0}
+  deathSound: {fileID: 0}
 --- !u!114 &1680843615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -20387,6 +20595,7 @@ MonoBehaviour:
   pointA: {fileID: 1054630936}
   pointB: {fileID: 134113728}
   speed: 2
+  movementSound: {fileID: 0}
 --- !u!50 &1680843617
 Rigidbody2D:
   serializedVersion: 4
@@ -21070,6 +21279,182 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 31.4, y: 17.2}
   m_EdgeRadius: 0
+--- !u!1 &1760079891
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1760079892}
+  - component: {fileID: 1760079895}
+  - component: {fileID: 1760079894}
+  - component: {fileID: 1760079893}
+  m_Layer: 0
+  m_Name: Long platform lvl 2_0 (7)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1760079892
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760079891}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 1, w: 0}
+  m_LocalPosition: {x: 825.6, y: 70.2, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 938755669}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 180}
+--- !u!61 &1760079893
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760079891}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 70, y: 8.9}
+    newSize: {x: 70, y: 8.9}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 70, y: 8.9}
+  m_EdgeRadius: 0
+--- !u!61 &1760079894
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760079891}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 70, y: 8.9}
+    newSize: {x: 70, y: 8.9}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 70, y: 8.9}
+  m_EdgeRadius: 0
+--- !u!212 &1760079895
+SpriteRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1760079891}
+  m_Enabled: 1
+  m_CastShadows: 0
+  m_ReceiveShadows: 0
+  m_DynamicOccludee: 1
+  m_StaticShadowCaster: 0
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_RayTracingMode: 0
+  m_RayTraceProcedural: 0
+  m_RenderingLayerMask: 1
+  m_RendererPriority: 0
+  m_Materials:
+  - {fileID: 10754, guid: 0000000000000000f000000000000000, type: 0}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_ReceiveGI: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_StitchLightmapSeams: 1
+  m_SelectedEditorRenderState: 0
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 1
+  m_Sprite: {fileID: 671490221, guid: dd084e6acd2708f46820613c46d641e8, type: 3}
+  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_FlipX: 0
+  m_FlipY: 0
+  m_DrawMode: 0
+  m_Size: {x: 70, y: 8.9}
+  m_AdaptiveModeThreshold: 0.5
+  m_SpriteTileMode: 0
+  m_WasSpriteAssigned: 1
+  m_MaskInteraction: 0
+  m_SpriteSortPoint: 0
 --- !u!1 &1760420308
 GameObject:
   m_ObjectHideFlags: 0
@@ -21149,6 +21534,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   animator: {fileID: 1855002393}
+  damageSound: {fileID: 0}
 --- !u!61 &1771751760
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -21708,6 +22094,8 @@ MonoBehaviour:
   health: 100
   damageAnimationDuration: 0.5
   deathAnimationDuration: 1
+  damageSound: {fileID: 0}
+  deathSound: {fileID: 0}
 --- !u!114 &1855002397
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -21739,6 +22127,7 @@ MonoBehaviour:
   pointA: {fileID: 556972394}
   pointB: {fileID: 324991453}
   speed: 2
+  movementSound: {fileID: 0}
 --- !u!50 &1855002399
 Rigidbody2D:
   serializedVersion: 4
@@ -23431,6 +23820,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   animator: {fileID: 576801518}
+  damageSound: {fileID: 0}
 --- !u!61 &1962848420
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23726,6 +24116,7 @@ MonoBehaviour:
   pointA: {fileID: 1554048082}
   pointB: {fileID: 465176926}
   speed: 4
+  movementSound: {fileID: 0}
 --- !u!61 &1976573480
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -23846,6 +24237,8 @@ MonoBehaviour:
   health: 100
   damageAnimationDuration: 0.5
   deathAnimationDuration: 1
+  damageSound: {fileID: 0}
+  deathSound: {fileID: 0}
 --- !u!1 &1983360827
 GameObject:
   m_ObjectHideFlags: 0
@@ -26837,6 +27230,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   animator: {fileID: 1680843611}
+  damageSound: {fileID: 0}
 --- !u!61 &2115224095
 BoxCollider2D:
   m_ObjectHideFlags: 0
