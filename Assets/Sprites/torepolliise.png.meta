@@ -113,12 +113,12 @@ TextureImporter:
       name: torepolliise_0
       rect:
         serializedVersion: 2
-        x: 360
+        x: 330
         y: 230
-        width: 480
-        height: 630
+        width: 660
+        height: 650
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -134,12 +134,12 @@ TextureImporter:
       name: torepolliise_1
       rect:
         serializedVersion: 2
-        x: 1390
+        x: 1360
         y: 230
-        width: 480
-        height: 630
+        width: 660
+        height: 650
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -157,10 +157,10 @@ TextureImporter:
         serializedVersion: 2
         x: 2370
         y: 230
-        width: 530
-        height: 640
+        width: 680
+        height: 650
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -177,11 +177,11 @@ TextureImporter:
       rect:
         serializedVersion: 2
         x: 3400
-        y: 230
-        width: 530
-        height: 640
+        y: 232
+        width: 681
+        height: 650
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -202,7 +202,7 @@ TextureImporter:
         width: 630
         height: 650
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -218,12 +218,12 @@ TextureImporter:
       name: torepolliise_8
       rect:
         serializedVersion: 2
-        x: 5510
-        y: 230
-        width: 560
-        height: 630
+        x: 5480
+        y: 231
+        width: 660
+        height: 650
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -239,12 +239,12 @@ TextureImporter:
       name: torepolliise_9
       rect:
         serializedVersion: 2
-        x: 6540
+        x: 6510
         y: 230
-        width: 480
-        height: 630
+        width: 660
+        height: 650
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -260,12 +260,12 @@ TextureImporter:
       name: torepolliise_10
       rect:
         serializedVersion: 2
-        x: 7540
+        x: 7510
         y: 230
-        width: 580
-        height: 630
+        width: 660
+        height: 650
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -281,12 +281,12 @@ TextureImporter:
       name: torepolliise_11
       rect:
         serializedVersion: 2
-        x: 8600
+        x: 8570
         y: 230
-        width: 480
-        height: 630
+        width: 660
+        height: 650
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -302,12 +302,12 @@ TextureImporter:
       name: torepolliise_12
       rect:
         serializedVersion: 2
-        x: 9630
+        x: 9600
         y: 230
-        width: 480
-        height: 630
+        width: 660
+        height: 650
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -323,12 +323,12 @@ TextureImporter:
       name: torepolliise_13
       rect:
         serializedVersion: 2
-        x: 10660
+        x: 10630
         y: 230
-        width: 480
-        height: 630
+        width: 660
+        height: 650
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -344,12 +344,12 @@ TextureImporter:
       name: torepolliise_14
       rect:
         serializedVersion: 2
-        x: 11690
+        x: 11660
         y: 230
-        width: 480
-        height: 630
+        width: 660
+        height: 650
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -365,12 +365,12 @@ TextureImporter:
       name: torepolliise_15
       rect:
         serializedVersion: 2
-        x: 12720
+        x: 12690
         y: 230
-        width: 480
-        height: 630
+        width: 660
+        height: 650
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
