@@ -5347,7 +5347,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!82 &478626241
 AudioSource:
   m_ObjectHideFlags: 0
@@ -12210,8 +12210,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 01c1916b483033f408518c1515cb454e, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  pointA: {fileID: 481386894}
-  pointB: {fileID: 524333487}
+  pointA: {fileID: 524333487}
+  pointB: {fileID: 481386894}
   speed: 2
   movementSound: {fileID: 0}
 --- !u!50 &978728800
@@ -23639,7 +23639,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 6573821363750477537, guid: 12abc6ca2282623419a6c9ca7777111e, type: 3}
       propertyPath: m_GravityScale
-      value: 1000
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 6892443322804306276, guid: 12abc6ca2282623419a6c9ca7777111e, type: 3}
       propertyPath: m_Name
