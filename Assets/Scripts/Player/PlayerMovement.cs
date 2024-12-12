@@ -43,26 +43,39 @@ public class PlayerMovement : MonoBehaviour
         if (wallJumpCooldown > 0.2f)
         {
             // Apply speed multiplier for slowed platforms
-            body.velocity = new Vector2(horizontalInput * speed * speedMultiplier, body.velocity.y);
-
-            if (onWall() && !isGrounded())
+            float movementSpeed = horizontalInput * speed * speedMultiplier;
+            if (!isGrounded())
             {
-                body.gravityScale = 0;
-                body.velocity = Vector2.zero;
+                // Reduce air control
+                movementSpeed *= 0.8f;
             }
-            else
-                body.gravityScale = 3;
+            body.velocity = new Vector2(movementSpeed, body.velocity.y);
 
-            if (Input.GetKey(KeyCode.Space))
+            // Jump logic
+            if (Input.GetKeyDown(KeyCode.Space) && isGrounded())
             {
                 Jump();
+                SoundManager.instance.PlaySound(jumpSound);
+            }
 
-                if (Input.GetKeyDown(KeyCode.Space) && isGrounded())
-                    SoundManager.instance.PlaySound(jumpSound);
+            // Apply custom gravity for better jump feel
+            if (body.velocity.y < 0) // Falling
+            {
+                body.gravityScale = 5; // Stronger gravity when falling
+            }
+            else if (body.velocity.y > 0 && !Input.GetKey(KeyCode.Space)) // Short hop
+            {
+                body.gravityScale = 4; // Less gravity if the player releases jump early
+            }
+            else
+            {
+                body.gravityScale = 3; // Normal gravity
             }
         }
         else
+        {
             wallJumpCooldown += Time.deltaTime;
+        }
     }
 
     public void Jump()
