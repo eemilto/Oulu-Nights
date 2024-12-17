@@ -85,14 +85,14 @@ public class UIManager : MonoBehaviour
     public void CutScene1()
     {
         Debug.Log("Starting Cutscene 1...");
-        SceneManager.LoadScene(1);
+        SceneManager.LoadScene(2);
     }
 
     // Cutscene 2
     public void CutScene2()
     {
         Debug.Log("Starting Cutscene 2...");
-        SceneManager.LoadScene(2);
+        SceneManager.LoadScene(1);
     }
 
     // Cutscene 3
